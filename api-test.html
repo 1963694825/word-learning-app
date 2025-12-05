@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英语单词学习API测试工具</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f5f7fa; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        h1 { color: #2c3e50; margin-bottom: 30px; text-align: center; }
+        .section { background: white; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        h2 { color: #3b82f6; margin-bottom: 15px; font-size: 18px; }
+        .api-group { margin-bottom: 30px; }
+        .api-item { margin-bottom: 15px; padding: 15px; background: #f8f9fa; border-radius: 6px; border-left: 4px solid #3b82f6; }
+        .api-title { font-weight: 600; color: #2c3e50; margin-bottom: 10px; }
+        .method { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 12px; font-weight: 600; margin-right: 10px; }
+        .method.get { background: #10b981; color: white; }
+        .method.post { background: #3b82f6; color: white; }
+        input, textarea, button { width: 100%; padding: 10px; margin: 5px 0; border: 1px solid #ddd; border-radius: 4px; font-size: 14px; }
+        button { background: #3b82f6; color: white; border: none; cursor: pointer; font-weight: 600; transition: background 0.3s; }
+        button:hover { background: #2563eb; }
+        button:disabled { background: #9ca3af; cursor: not-allowed; }
+        .response { margin-top: 10px; padding: 10px; background: #1f2937; color: #10b981; border-radius: 4px; font-family: monospace; font-size: 12px; max-height: 300px; overflow-y: auto; white-space: pre-wrap; }
+        .token-display { background: #fef3c7; padding: 10px; border-radius: 4px; margin: 10px 0; font-family: monospace; font-size: 12px; word-break: break-all; }
+        .info { background: #dbeafe; padding: 10px; border-radius: 4px; margin-bottom: 15px; color: #1e40af; font-size: 14px; }
+        .error { color: #ef4444; }
+        .success { color: #10b981; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 英语单词学习API测试工具</h1>
+        
+        <div class="section">
+            <div class="info">
+                <strong>API基础地址:</strong> http://localhost:3000/api/v1<br>
+                <strong>说明:</strong> 先登录获取Token,然后使用Token测试其他需要认证的接口
+            </div>
+            <div class="token-display">
+                <strong>当前Token:</strong> <span id="currentToken">未登录</span>
+            </div>
+        </div>
+
+        <!-- 认证模块 -->
+        <div class="section">
+            <h2>🔐 认证模块</h2>
+            
+            <div class="api-item">
+                <div class="api-title">
+                    <span class="method post">POST</span>
+                    /auth/login - 用户登录
+                </div>
+                <input type="text" id="loginUsername" placeholder="用户名 (例如: testuser)" value="testuser">
+                <input type="password" id="loginPassword" placeholder="密码 (例如: 123456)" value="123456">
+                <button onclick="login()">登录</button>
+                <div id="loginResponse" class="response" style="display:none;"></div>
+            </div>
+
+            <div class="api-item">
+                <div class="api-title">
+                    <span class="method get">GET</span>
+                    /auth/profile - 获取用户信息
+                </div>
+                <button onclick="getProfile()">获取用户信息</button>
+                <div id="profileResponse" class="response" style="display:none;"></div>
+            </div>
+        </div>
+
+        <!-- 词书模块 -->
+        <div class="section">
+            <h2>📚 词书模块</h2>
+            
+            <div class="api-item">
+                <div class="api-title">
+                    <span class="method get">GET</span>
+                    /books - 获取词书列表
+                </div>
+                <button onclick="getBooks()">获取词书列表</button>
+                <div id="booksResponse" class="response" style="display:none;"></div>
+            </div>
+
+            <div class="api-item">
+                <div class="api-title">
+                    <span class="method get">GET</span>
+                    /books/:id - 获取词书详情
+                </div>
+                <input type="number" id="bookId" placeholder="词书ID (例如: 1)" value="1">
+                <button onclick="getBookById()">获取词书详情</button>
+                <div id="bookDetailResponse" class="response" style="display:none;"></div>
+            </div>
+
+            <div class="api-item">
+                <div class="api-title">
+                    <span class="method get">GET</span>
+                    /books/:id/words - 获取词书单词列表
+                </div>
+                <input type="number" id="bookWordsId" placeholder="词书ID (例如: 1)" value="1">
+                <input type="number" id="bookWordsPage" placeholder="页码 (默认: 1)" value="1">
+                <button onclick="getBookWords()">获取单词列表</button>
+                <div id="bookWordsResponse" class="response" style="display:none;"></div>
+            </div>
+        </div>
+
+        <!-- 学习模块 -->
+        <div class="section">
+            <h2>📖 学习模块</h2>
+            
+            <div class="api-item">
+                <div class="api-title">
+                    <span class="method get">GET</span>
+                    /learn/daily-task - 获取每日学习任务
+                </div>
+                <input type="number" id="taskBookId" placeholder="词书ID (可选,例如: 1)" value="1">
+                <input type="number" id="taskLimit" placeholder="数量限制 (默认: 20)" value="10">
+                <button onclick="getDailyTask()">获取学习任务</button>
+                <div id="taskResponse" class="response" style="display:none;"></div>
+            </div>
+
+            <div class="api-item">
+                <div class="api-title">
+                    <span class="method post">POST</span>
+                    /learn/record - 提交学习记录
+                </div>
+                <input type="number" id="recordWordId" placeholder="单词ID (例如: 1)" value="1">
+                <select id="recordIsKnown">
+                    <option value="true">认识</option>
+                    <option value="false">不认识</option>
+                </select>
+                <button onclick="submitRecord()">提交学习记录</button>
+                <div id="recordResponse" class="response" style="display:none;"></div>
+            </div>
+        </div>
+
+        <!-- 测试模块 -->
+        <div class="section">
+            <h2>✍️ 测试模块</h2>
+            
+            <div class="api-item">
+                <div class="api-title">
+                    <span class="method get">GET</span>
+                    /test/questions - 获取测试题目
+                </div>
+                <input type="number" id="questionCount" placeholder="题目数量 (默认: 10)" value="5">
+                <button onclick="getQuestions()">获取测试题目</button>
+                <div id="questionsResponse" class="response" style="display:none;"></div>
+            </div>
+
+            <div class="api-item">
+                <div class="api-title">
+                    <span class="method post">POST</span>
+                    /test/submit - 提交测试答案
+                </div>
+                <textarea id="testAnswers" rows="4" placeholder='答案JSON格式,例如: [{"selectedId":1,"correctId":1}]'>[{"selectedId":1,"correctId":1},{"selectedId":2,"correctId":3}]</textarea>
+                <button onclick="submitTest()">提交测试答案</button>
+                <div id="testResponse" class="response" style="display:none;"></div>
+            </div>
+        </div>
+
+        <!-- 生词本模块 -->
+        <div class="section">
+            <h2>📝 生词本模块</h2>
+            
+            <div class="api-item">
+                <div class="api-title">
+                    <span class="method get">GET</span>
+                    /wordbooks - 获取生词本列表
+                </div>
+                <button onclick="getWordbooks()">获取生词本列表</button>
+                <div id="wordbooksResponse" class="response" style="display:none;"></div>
+            </div>
+
+            <div class="api-item">
+                <div class="api-title">
+                    <span class="method post">POST</span>
+                    /wordbooks - 创建生词本
+                </div>
+                <input type="text" id="wordbookName" placeholder="生词本名称 (例如: 我的生词本)" value="我的生词本">
+                <input type="text" id="wordbookDesc" placeholder="描述 (可选)" value="收集的生词">
+                <button onclick="createWordbook()">创建生词本</button>
+                <div id="createWordbookResponse" class="response" style="display:none;"></div>
+            </div>
+
+            <div class="api-item">
+                <div class="api-title">
+                    <span class="method post">POST</span>
+                    /wordbooks/:id/words - 添加单词到生词本
+                </div>
+                <input type="number" id="wordbookId" placeholder="生词本ID (例如: 1)" value="1">
+                <input type="number" id="addWordId" placeholder="单词ID (例如: 1)" value="1">
+                <button onclick="addWordToWordbook()">添加单词</button>
+                <div id="addWordResponse" class="response" style="display:none;"></div>
+            </div>
+        </div>
+
+        <!-- 统计模块 -->
+        <div class="section">
+            <h2>📊 统计模块</h2>
+            
+            <div class="api-item">
+                <div class="api-title">
+                    <span class="method get">GET</span>
+                    /stats/overview - 获取统计概览
+                </div>
+                <button onclick="getStats()">获取统计数据</button>
+                <div id="statsResponse" class="response" style="display:none;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:3000/api/v1';
+        let token = '';
+
+        function updateToken(newToken) {
+            token = newToken;
+            document.getElementById('currentToken').textContent = token ? token.substring(0, 50) + '...' : '未登录';
+        }
+
+        function showResponse(elementId, data) {
+            const element = document.getElementById(elementId);
+            element.style.display = 'block';
+            element.textContent = JSON.stringify(data, null, 2);
+        }
+
+        async function apiCall(method, endpoint, body = null, needsAuth = false) {
+            const headers = { 'Content-Type': 'application/json' };
+            if (needsAuth && token) {
+                headers['Authorization'] = `Bearer ${token}`;
+            }
+
+            const options = { method, headers };
+            if (body) {
+                options.body = JSON.stringify(body);
+            }
+
+            try {
+                const response = await fetch(`${API_BASE}${endpoint}`, options);
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                return { error: error.message };
+            }
+        }
+
+        async function login() {
+            const username = document.getElementById('loginUsername').value;
+            const password = document.getElementById('loginPassword').value;
+            const data = await apiCall('POST', '/auth/login', { username, password });
+            showResponse('loginResponse', data);
+            if (data.data && data.data.token) {
+                updateToken(data.data.token);
+            }
+        }
+
+        async function getProfile() {
+            const data = await apiCall('GET', '/auth/profile', null, true);
+            showResponse('profileResponse', data);
+        }
+
+        async function getBooks() {
+            const data = await apiCall('GET', '/books');
+            showResponse('booksResponse', data);
+        }
+
+        async function getBookById() {
+            const id = document.getElementById('bookId').value;
+            const data = await apiCall('GET', `/books/${id}`);
+            showResponse('bookDetailResponse', data);
+        }
+
+        async function getBookWords() {
+            const id = document.getElementById('bookWordsId').value;
+            const page = document.getElementById('bookWordsPage').value;
+            const data = await apiCall('GET', `/books/${id}/words?page=${page}`);
+            showResponse('bookWordsResponse', data);
+        }
+
+        async function getDailyTask() {
+            const bookId = document.getElementById('taskBookId').value;
+            const limit = document.getElementById('taskLimit').value;
+            const data = await apiCall('GET', `/learn/daily-task?bookId=${bookId}&limit=${limit}`, null, true);
+            showResponse('taskResponse', data);
+        }
+
+        async function submitRecord() {
+            const wordId = parseInt(document.getElementById('recordWordId').value);
+            const isKnown = document.getElementById('recordIsKnown').value === 'true';
+            const data = await apiCall('POST', '/learn/record', { wordId, isKnown }, true);
+            showResponse('recordResponse', data);
+        }
+
+        async function getQuestions() {
+            const count = document.getElementById('questionCount').value;
+            const data = await apiCall('GET', `/test/questions?count=${count}`, null, true);
+            showResponse('questionsResponse', data);
+        }
+
+        async function submitTest() {
+            const answers = JSON.parse(document.getElementById('testAnswers').value);
+            const data = await apiCall('POST', '/test/submit', { answers }, true);
+            showResponse('testResponse', data);
+        }
+
+        async function getWordbooks() {
+            const data = await apiCall('GET', '/wordbooks', null, true);
+            showResponse('wordbooksResponse', data);
+        }
+
+        async function createWordbook() {
+            const name = document.getElementById('wordbookName').value;
+            const description = document.getElementById('wordbookDesc').value;
+            const data = await apiCall('POST', '/wordbooks', { name, description }, true);
+            showResponse('createWordbookResponse', data);
+        }
+
+        async function addWordToWordbook() {
+            const id = document.getElementById('wordbookId').value;
+            const wordId = parseInt(document.getElementById('addWordId').value);
+            const data = await apiCall('POST', `/wordbooks/${id}/words`, { wordId }, true);
+            showResponse('addWordResponse', data);
+        }
+
+        async function getStats() {
+            const data = await apiCall('GET', '/stats/overview', null, true);
+            showResponse('statsResponse', data);
+        }
+    </script>
+</body>
+</html>
