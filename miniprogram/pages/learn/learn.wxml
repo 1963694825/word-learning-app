@@ -1,3 +1,56 @@
+<!--pages/learn/learn.wxml-->
 <view class="container">
-  <text>学习页面 - 开发中</text>
+  <!-- 加载状态 -->
+  <view wx:if="{{loading}}" class="loading">
+    <text>加载中...</text>
+  </view>
+
+  <!-- 完成状态 -->
+  <view wx:elif="{{finished}}" class="finished">
+    <text class="finished-icon">🎉</text>
+    <text class="finished-text">今日学习完成!</text>
+  </view>
+
+  <!-- 学习内容 -->
+  <view wx:else class="learn-content">
+    <!-- 进度条 -->
+    <view class="progress-bar">
+      <view class="progress-text">{{progress.current}} / {{progress.total}}</view>
+      <view class="progress-track">
+        <view class="progress-fill" style="width: {{progress.current / progress.total * 100}}%"></view>
+      </view>
+    </view>
+
+    <!-- 单词卡片 -->
+    <view class="word-card {{showAnswer ? 'flipped' : ''}}" bindtap="flipCard">
+      <view class="card-front">
+        <text class="word">{{currentWord.word}}</text>
+        <text class="phonetic">{{currentWord.phonetic_us}}</text>
+        <text class="hint">点击查看释义</text>
+      </view>
+      
+      <view class="card-back">
+        <text class="word">{{currentWord.word}}</text>
+        <text class="phonetic">{{currentWord.phonetic_us}}</text>
+        <view class="definitions">
+          <block wx:for="{{currentWord.definitions}}" wx:key="index">
+            <view class="definition-item">
+              <text class="pos">{{item.pos}}</text>
+              <text class="meaning">{{item.meaning}}</text>
+            </view>
+          </block>
+        </view>
+      </view>
+    </view>
+
+    <!-- 操作按钮 -->
+    <view class="actions">
+      <button class="btn-unknow" bindtap="handleUnknow">
+        不认识
+      </button>
+      <button class="btn-know" bindtap="handleKnow">
+        认识
+      </button>
+    </view>
+  </view>
 </view>

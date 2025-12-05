@@ -1,1 +1,160 @@
-.container { padding: 30rpx; }
+/* pages/learn/learn.wxss */
+.container {
+  padding: 30rpx;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.loading, .finished {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #9ca3af;
+}
+
+.finished-icon {
+  font-size: 120rpx;
+  margin-bottom: 30rpx;
+}
+
+.finished-text {
+  font-size: 36rpx;
+  color: #10b981;
+  font-weight: 600;
+}
+
+/* 进度条 */
+.progress-bar {
+  margin-bottom: 40rpx;
+}
+
+.progress-text {
+  font-size: 28rpx;
+  color: #6b7280;
+  margin-bottom: 10rpx;
+  text-align: center;
+}
+
+.progress-track {
+  height: 8rpx;
+  background: #e5e7eb;
+  border-radius: 4rpx;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  transition: width 0.3s;
+}
+
+/* 单词卡片 */
+.word-card {
+  position: relative;
+  width: 100%;
+  height: 600rpx;
+  margin-bottom: 60rpx;
+  perspective: 1000rpx;
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 24rpx;
+  box-shadow: 0 8rpx 24rpx rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60rpx;
+  backface-visibility: hidden;
+  transition: transform 0.6s;
+}
+
+.card-front {
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+.word-card.flipped .card-front {
+  transform: rotateY(180deg);
+}
+
+.word-card.flipped .card-back {
+  transform: rotateY(0deg);
+}
+
+.word {
+  font-size: 72rpx;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 20rpx;
+}
+
+.phonetic {
+  font-size: 32rpx;
+  color: #6b7280;
+  margin-bottom: 30rpx;
+}
+
+.hint {
+  font-size: 28rpx;
+  color: #9ca3af;
+  margin-top: 40rpx;
+}
+
+.definitions {
+  width: 100%;
+  margin-top: 20rpx;
+}
+
+.definition-item {
+  margin-bottom: 20rpx;
+  text-align: left;
+}
+
+.pos {
+  font-size: 24rpx;
+  color: #3b82f6;
+  margin-right: 10rpx;
+  font-weight: 600;
+}
+
+.meaning {
+  font-size: 32rpx;
+  color: #374151;
+  line-height: 1.6;
+}
+
+/* 操作按钮 */
+.actions {
+  display: flex;
+  gap: 30rpx;
+}
+
+.btn-unknow, .btn-know {
+  flex: 1;
+  height: 100rpx;
+  border: none;
+  border-radius: 50rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+
+.btn-unknow {
+  background: linear-gradient(135deg, #fca5a5 0%, #ef4444 100%);
+  color: white;
+}
+
+.btn-know {
+  background: linear-gradient(135deg, #86efac 0%, #10b981 100%);
+  color: white;
+}
