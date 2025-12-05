@@ -1,0 +1,16 @@
+[
+    {
+        "name": "基础词汇",
+        "description": "最常用的基础英语单词",
+        "difficulty_level": 1,
+        "category": "分级",
+        "is_builtin": true
+    },
+    {
+        "name": "进阶词汇",
+        "description": "中等难度的英语单词",
+        "difficulty_level": 2,
+        "category": "分级",
+        "is_builtin": true
+    }
+]

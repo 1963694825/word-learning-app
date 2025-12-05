@@ -1,0 +1,99 @@
+[
+    {
+        "word": "abandon",
+        "phonetic_us": "/əˈbændən/",
+        "phonetic_uk": "/əˈbændən/",
+        "definitions": [
+            {
+                "pos": "v.",
+                "meaning": "放弃;遗弃;抛弃",
+                "examples": [
+                    "They abandoned the car and fled."
+                ]
+            }
+        ],
+        "root": "a-(away) + band(bind)",
+        "synonyms": [
+            "desert",
+            "forsake"
+        ],
+        "frequency": "high",
+        "difficulty": 4
+    },
+    {
+        "word": "ability",
+        "phonetic_us": "/əˈbɪləti/",
+        "phonetic_uk": "/əˈbɪləti/",
+        "definitions": [
+            {
+                "pos": "n.",
+                "meaning": "能力;才能",
+                "examples": [
+                    "She has the ability to speak three languages."
+                ]
+            }
+        ],
+        "synonyms": [
+            "capability",
+            "capacity"
+        ],
+        "frequency": "high",
+        "difficulty": 2
+    },
+    {
+        "word": "about",
+        "phonetic_us": "/əˈbaʊt/",
+        "phonetic_uk": "/əˈbaʊt/",
+        "definitions": [
+            {
+                "pos": "prep.",
+                "meaning": "关于;大约",
+                "examples": [
+                    "Tell me about your trip."
+                ]
+            }
+        ],
+        "frequency": "high",
+        "difficulty": 1
+    },
+    {
+        "word": "accept",
+        "phonetic_us": "/əkˈsept/",
+        "phonetic_uk": "/əkˈsept/",
+        "definitions": [
+            {
+                "pos": "v.",
+                "meaning": "接受;承认",
+                "examples": [
+                    "I accept your apology."
+                ]
+            }
+        ],
+        "synonyms": [
+            "receive",
+            "take"
+        ],
+        "frequency": "high",
+        "difficulty": 2
+    },
+    {
+        "word": "achieve",
+        "phonetic_us": "/əˈtʃiːv/",
+        "phonetic_uk": "/əˈtʃiːv/",
+        "definitions": [
+            {
+                "pos": "v.",
+                "meaning": "达到;完成;实现",
+                "examples": [
+                    "She achieved her goal."
+                ]
+            }
+        ],
+        "synonyms": [
+            "accomplish",
+            "attain"
+        ],
+        "frequency": "high",
+        "difficulty": 3
+    }
+]
