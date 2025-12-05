@@ -1,0 +1,51 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/learn/learn",
+        "pages/test/test",
+        "pages/wordbook/wordbook",
+        "pages/stats/stats",
+        "pages/profile/profile"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#3b82f6",
+        "navigationBarTitleText": "英语单词学习",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#f5f7fa"
+    },
+    "tabBar": {
+        "color": "#7c7c7c",
+        "selectedColor": "#3b82f6",
+        "backgroundColor": "#ffffff",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "assets/icons/home.png",
+                "selectedIconPath": "assets/icons/home-active.png"
+            },
+            {
+                "pagePath": "pages/wordbook/wordbook",
+                "text": "生词本",
+                "iconPath": "assets/icons/book.png",
+                "selectedIconPath": "assets/icons/book-active.png"
+            },
+            {
+                "pagePath": "pages/stats/stats",
+                "text": "统计",
+                "iconPath": "assets/icons/chart.png",
+                "selectedIconPath": "assets/icons/chart-active.png"
+            },
+            {
+                "pagePath": "pages/profile/profile",
+                "text": "我的",
+                "iconPath": "assets/icons/user.png",
+                "selectedIconPath": "assets/icons/user-active.png"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

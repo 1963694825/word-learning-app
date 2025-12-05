@@ -1,0 +1,58 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <!-- 加载状态 -->
+  <view wx:if="{{loading}}" class="loading">
+    <text>加载中...</text>
+  </view>
+
+  <view wx:else>
+    <!-- 统计卡片 -->
+    <view class="stats-card card">
+      <view class="stats-title">学习统计</view>
+      <view class="stats-grid">
+        <view class="stat-item">
+          <text class="stat-value">{{stats.todayWords}}</text>
+          <text class="stat-label">今日学习</text>
+        </view>
+        <view class="stat-item">
+          <text class="stat-value">{{stats.totalWords}}</text>
+          <text class="stat-label">累计单词</text>
+        </view>
+        <view class="stat-item">
+          <text class="stat-value">{{stats.continuousDays}}</text>
+          <text class="stat-label">连续天数</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 今日任务 -->
+    <view class="task-card card">
+      <view class="task-header">
+        <text class="task-title">今日任务</text>
+        <text class="task-count">{{todayTask.total}}个单词</text>
+      </view>
+      <view class="task-detail">
+        <text class="task-item">复习: {{todayTask.review.length}}个</text>
+        <text class="task-item">新词: {{todayTask.new.length}}个</text>
+      </view>
+      <button class="btn-primary" bindtap="startLearning">
+        开始学习
+      </button>
+    </view>
+
+    <!-- 快捷操作 -->
+    <view class="actions-card card">
+      <view class="action-title">快捷操作</view>
+      <view class="action-buttons">
+        <button class="action-btn" bindtap="startTest">
+          <text class="action-icon">✍️</text>
+          <text class="action-text">开始测试</text>
+        </button>
+        <button class="action-btn" bindtap="goToWordbook">
+          <text class="action-icon">📝</text>
+          <text class="action-text">生词本</text>
+        </button>
+      </view>
+    </view>
+  </view>
+</view>
