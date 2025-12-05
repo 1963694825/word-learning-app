@@ -1,66 +1,62 @@
 // pages/wordbook/wordbook.js
+const { get, post } = require('../../utils/request');
+
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    wordbooks: [],
+    loading: true
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad(options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
   onShow() {
-
+    this.loadWordbooks();
   },
 
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide() {
+  async loadWordbooks() {
+    this.setData({ loading: true });
 
+    try {
+      const res = await get('/wordbooks', {}, true);
+
+      if (res.code === 200) {
+        this.setData({
+          wordbooks: res.data,
+          loading: false
+        });
+      }
+    } catch (error) {
+      console.error('加载失败:', error);
+      this.setData({ loading: false });
+    }
   },
 
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload() {
+  createWordbook() {
+    wx.showModal({
+      title: '创建生词本',
+      editable: true,
+      placeholderText: '请输入生词本名称',
+      success: async (res) => {
+        if (res.confirm && res.content) {
+          try {
+            const result = await post('/wordbooks', {
+              name: res.content,
+              description: '我的生词本'
+            }, true);
 
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh() {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom() {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage() {
-
+            if (result.code === 200) {
+              wx.showToast({
+                title: '创建成功',
+                icon: 'success'
+              });
+              this.loadWordbooks();
+            }
+          } catch (error) {
+            wx.showToast({
+              title: '创建失败',
+              icon: 'none'
+            });
+          }
+        }
+      }
+    });
   }
-})
+});

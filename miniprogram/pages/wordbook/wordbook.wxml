@@ -1,2 +1,29 @@
 <!--pages/wordbook/wordbook.wxml-->
-<text>pages/wordbook/wordbook.wxml</text>
+<view class="container">
+  <view wx:if="{{loading}}" class="loading">
+    <text>加载中...</text>
+  </view>
+
+  <view wx:else>
+    <!-- 空状态 -->
+    <view wx:if="{{wordbooks.length === 0}}" class="empty">
+      <text class="empty-icon">📝</text>
+      <text class="empty-text">还没有生词本</text>
+      <button class="btn-create" bindtap="createWordbook">创建生词本</button>
+    </view>
+
+    <!-- 生词本列表 -->
+    <view wx:else>
+      <view class="wordbook-list">
+        <view class="wordbook-item" wx:for="{{wordbooks}}" wx:key="id">
+          <view class="wordbook-info">
+            <text class="wordbook-name">{{item.name}}</text>
+            <text class="wordbook-count">{{item.word_count}}个单词</text>
+          </view>
+          <text class="arrow">›</text>
+        </view>
+      </view>
+      <button class="btn-add" bindtap="createWordbook">+ 新建生词本</button>
+    </view>
+  </view>
+</view>

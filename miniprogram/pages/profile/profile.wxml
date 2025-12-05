@@ -1,2 +1,39 @@
 <!--pages/profile/profile.wxml-->
-<text>pages/profile/profile.wxml</text>
+<view class="container">
+  <!-- 用户信息 -->
+  <view class="user-card">
+    <image class="avatar" src="{{userInfo.avatar_url || '/assets/default-avatar.png'}}" mode="aspectFill"></image>
+    <text class="nickname">{{userInfo.nickname || '用户'}}</text>
+  </view>
+
+  <!-- 学习数据 -->
+  <view class="data-card">
+    <view class="data-item">
+      <text class="data-value">{{userInfo.total_learn_days || 0}}</text>
+      <text class="data-label">学习天数</text>
+    </view>
+    <view class="data-item">
+      <text class="data-value">{{userInfo.continuous_days || 0}}</text>
+      <text class="data-label">连续打卡</text>
+    </view>
+    <view class="data-item">
+      <text class="data-value">{{userInfo.total_words || 0}}</text>
+      <text class="data-label">学习单词</text>
+    </view>
+  </view>
+
+  <!-- 功能列表 -->
+  <view class="menu-list">
+    <view class="menu-item">
+      <text class="menu-text">设置</text>
+      <text class="arrow">›</text>
+    </view>
+    <view class="menu-item">
+      <text class="menu-text">关于</text>
+      <text class="arrow">›</text>
+    </view>
+  </view>
+
+  <!-- 退出登录 -->
+  <button class="btn-logout" bindtap="handleLogout">退出登录</button>
+</view>

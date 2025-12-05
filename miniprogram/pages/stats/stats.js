@@ -1,66 +1,31 @@
 // pages/stats/stats.js
+const { get } = require('../../utils/request');
+
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    stats: null,
+    loading: true
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad(options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
   onShow() {
-
+    this.loadStats();
   },
 
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide() {
+  async loadStats() {
+    this.setData({ loading: true });
 
-  },
+    try {
+      const res = await get('/stats/overview', {}, true);
 
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload() {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh() {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom() {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage() {
-
+      if (res.code === 200) {
+        this.setData({
+          stats: res.data.stats,
+          loading: false
+        });
+      }
+    } catch (error) {
+      console.error('加载失败:', error);
+      this.setData({ loading: false });
+    }
   }
-})
+});

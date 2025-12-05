@@ -1,2 +1,42 @@
 <!--pages/stats/stats.wxml-->
-<text>pages/stats/stats.wxml</text>
+<view class="container">
+  <view wx:if="{{loading}}" class="loading">
+    <text>加载中...</text>
+  </view>
+
+  <view wx:else class="stats-content">
+    <!-- 总体统计 -->
+    <view class="stats-card">
+      <text class="card-title">学习统计</text>
+      <view class="stats-grid">
+        <view class="stat-item">
+          <text class="stat-value">{{stats.total_words}}</text>
+          <text class="stat-label">累计学习</text>
+        </view>
+        <view class="stat-item">
+          <text class="stat-value">{{stats.mastered_words}}</text>
+          <text class="stat-label">已掌握</text>
+        </view>
+        <view class="stat-item">
+          <text class="stat-value">{{stats.today_words}}</text>
+          <text class="stat-label">今日学习</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 打卡统计 -->
+    <view class="stats-card">
+      <text class="card-title">打卡记录</text>
+      <view class="stats-grid">
+        <view class="stat-item">
+          <text class="stat-value">{{stats.total_learn_days}}</text>
+          <text class="stat-label">累计天数</text>
+        </view>
+        <view class="stat-item">
+          <text class="stat-value">{{stats.continuous_days}}</text>
+          <text class="stat-label">连续天数</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
