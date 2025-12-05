@@ -28,6 +28,11 @@ Page({
         }
     },
 
+    // 下拉刷新
+    onPullDownRefresh() {
+        this.loadData(true);
+    },
+
     // 检查登录状态
     async checkLogin() {
         if (!isLoggedIn()) {
@@ -45,7 +50,7 @@ Page({
     },
 
     // 加载数据
-    async loadData() {
+    async loadData(refresh = false) {
         this.setData({ loading: true });
 
         try {
@@ -68,10 +73,18 @@ Page({
                     todayTask: taskRes.data
                 });
             }
+
+            if (refresh) {
+                wx.showToast({ title: '刷新成功', icon: 'success' });
+            }
         } catch (error) {
             console.error('加载数据失败:', error);
+            wx.showToast({ title: '加载失败,请重试', icon: 'none' });
         } finally {
             this.setData({ loading: false });
+            if (refresh) {
+                wx.stopPullDownRefresh();
+            }
         }
     },
 

@@ -11,6 +11,10 @@ Page({
     this.loadStats();
   },
 
+  onPullDownRefresh() {
+    this.loadStats(true);
+  },
+
   async loadStats() {
     this.setData({ loading: true });
 
