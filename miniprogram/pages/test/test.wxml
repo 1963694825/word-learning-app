@@ -1,2 +1,64 @@
 <!--pages/test/test.wxml-->
-<text>pages/test/test.wxml</text>
+<view class="container">
+  <!-- 加载状态 -->
+  <view wx:if="{{loading}}" class="loading">
+    <text>加载中...</text>
+  </view>
+
+  <!-- 测试结果 -->
+  <view wx:elif="{{finished}}" class="result">
+    <text class="result-icon">{{result.accuracy >= 60 ? '🎉' : '💪'}}</text>
+    <text class="result-title">测试完成!</text>
+    <view class="result-stats">
+      <view class="stat-item">
+        <text class="stat-value">{{result.total}}</text>
+        <text class="stat-label">总题数</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-value">{{result.correct}}</text>
+        <text class="stat-label">正确数</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-value">{{result.accuracy}}%</text>
+        <text class="stat-label">正确率</text>
+      </view>
+    </view>
+    <button class="btn-back" bindtap="backToHome">返回首页</button>
+  </view>
+
+  <!-- 测试内容 -->
+  <view wx:else class="test-content">
+    <!-- 进度 -->
+    <view class="progress">
+      <text>第 {{currentIndex + 1}} / {{questions.length}} 题</text>
+    </view>
+
+    <!-- 题目 -->
+    <view class="question-card">
+      <view class="word-info">
+        <text class="word">{{currentQuestion.word}}</text>
+        <text class="phonetic">{{currentQuestion.phonetic}}</text>
+      </view>
+      <text class="question-text">请选择正确的释义:</text>
+    </view>
+
+    <!-- 选项 -->
+    <view class="options">
+      <block wx:for="{{currentQuestion.options}}" wx:key="id">
+        <view 
+          class="option-item {{selectedOption === item.id ? 'selected' : ''}}"
+          bindtap="selectOption"
+          data-id="{{item.id}}"
+        >
+          <text class="option-label">{{index === 0 ? 'A' : index === 1 ? 'B' : index === 2 ? 'C' : 'D'}}</text>
+          <text class="option-text">{{item.meaning}}</text>
+        </view>
+      </block>
+    </view>
+
+    <!-- 提交按钮 -->
+    <button class="btn-submit" bindtap="submitAnswer">
+      {{currentIndex < questions.length - 1 ? '下一题' : '提交测试'}}
+    </button>
+  </view>
+</view>
