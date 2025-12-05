@@ -2,7 +2,9 @@
 <view class="container">
   <!-- 用户信息 -->
   <view class="user-card">
-    <image class="avatar" src="{{userInfo.avatar_url || '/assets/default-avatar.png'}}" mode="aspectFill"></image>
+    <view class="avatar-placeholder">
+      <text class="avatar-text">{{userInfo.nickname ? userInfo.nickname.substring(0,1) : '用'}}</text>
+    </view>
     <text class="nickname">{{userInfo.nickname || '用户'}}</text>
   </view>
 
