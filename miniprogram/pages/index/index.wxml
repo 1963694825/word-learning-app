@@ -6,6 +6,30 @@
   </view>
 
   <view wx:else>
+    <!-- 词书选择 -->
+    <view class="books-card card">
+      <view class="books-title">选择词书 (共{{books.length}}本)</view>
+      <view wx:if="{{books.length === 0}}" style="padding: 20rpx; color: #999;">
+        暂无词书数据,请检查后端服务...
+      </view>
+      <scroll-view wx:else scroll-x class="books-scroll">
+        <view class="books-list">
+          <view 
+            wx:for="{{books}}" 
+            wx:key="id" 
+            class="book-item {{selectedBook && selectedBook.id === item.id ? 'active' : ''}}"
+            bindtap="selectBook"
+            data-id="{{item.id}}"
+          >
+            <view class="book-icon">📚</view>
+            <view class="book-name">{{item.name}}</view>
+            <view class="book-count">{{item.word_count}}词</view>
+            <view class="book-level">难度{{item.difficulty_level}}</view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+
     <!-- 统计卡片 -->
     <view class="stats-card card">
       <view class="stats-title">学习统计</view>
@@ -25,10 +49,41 @@
       </view>
     </view>
 
+    <!-- 词书学习统计 -->
+    <view wx:if="{{selectedBook && bookStats}}" class="book-stats-card card">
+      <view class="book-stats-header">
+        <text class="book-stats-title">{{selectedBook.name}} - 学习统计</text>
+        <text class="book-stats-progress">{{bookStats.progress}}%</text>
+      </view>
+      
+      <view class="progress-bar">
+        <view class="progress-fill" style="width: {{bookStats.progress}}%"></view>
+      </view>
+      
+      <view class="book-stats-grid">
+        <view class="book-stat-item">
+          <text class="book-stat-value">{{bookStats.total_words}}</text>
+          <text class="book-stat-label">总单词</text>
+        </view>
+        <view class="book-stat-item">
+          <text class="book-stat-value learned">{{bookStats.learned_words}}</text>
+          <text class="book-stat-label">已学习</text>
+        </view>
+        <view class="book-stat-item">
+          <text class="book-stat-value unlearned">{{bookStats.unlearned_words}}</text>
+          <text class="book-stat-label">未学习</text>
+        </view>
+        <view class="book-stat-item">
+          <text class="book-stat-value mastered">{{bookStats.mastered_words}}</text>
+          <text class="book-stat-label">已掌握</text>
+        </view>
+      </view>
+    </view>
+
     <!-- 今日任务 -->
     <view class="task-card card">
       <view class="task-header">
-        <text class="task-title">今日任务</text>
+        <text class="task-title">{{selectedBook ? selectedBook.name : '今日任务'}}</text>
         <text class="task-count">{{todayTask.total}}个单词</text>
       </view>
       <view class="task-detail">

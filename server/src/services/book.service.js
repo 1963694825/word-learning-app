@@ -8,7 +8,7 @@ class BookService {
             order: [['difficulty_level', 'ASC']]
         });
 
-        return books;
+        return { books };
     }
 
     // 获取词书详情

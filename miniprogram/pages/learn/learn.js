@@ -9,13 +9,18 @@ Page({
         showAnswer: false,
         loading: true,
         finished: false,
+        bookId: 1, // 默认词书ID
         progress: {
             current: 0,
             total: 0
         }
     },
 
-    onLoad() {
+    onLoad(options) {
+        // 从URL参数获取词书ID
+        const bookId = options.bookId ? parseInt(options.bookId) : 1;
+        console.log('学习页面加载,词书ID:', bookId);
+        this.setData({ bookId });
         this.loadWords();
     },
 
@@ -24,7 +29,8 @@ Page({
         this.setData({ loading: true });
 
         try {
-            const res = await get('/learn/daily-task?bookId=1&limit=10', {}, true);
+            // 使用当前选中的词书ID
+            const res = await get(`/learn/daily-task?bookId=${this.data.bookId}&limit=10`, {}, true);
 
             if (res.code === 200) {
                 const allWords = [...res.data.review, ...res.data.new];

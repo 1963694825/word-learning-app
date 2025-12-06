@@ -1,0 +1,60 @@
+{
+    "books": [
+        {
+            "key": "primary_school",
+            "name": "小学英语",
+            "description": "人教版PEP小学英语核心词汇汇总(三至六年级)",
+            "difficulty_level": 1,
+            "category": "分级",
+            "is_builtin": true
+        },
+        {
+            "key": "middle_school",
+            "name": "初中英语",
+            "description": "初中英语核心词汇",
+            "difficulty_level": 3,
+            "category": "分级",
+            "is_builtin": true
+        },
+        {
+            "key": "high_school",
+            "name": "高中英语",
+            "description": "高中英语核心词汇",
+            "difficulty_level": 5,
+            "category": "分级",
+            "is_builtin": true
+        },
+        {
+            "key": "cet4",
+            "name": "大学英语四级",
+            "description": "CET-4 核心词汇",
+            "difficulty_level": 6,
+            "category": "考试",
+            "is_builtin": true
+        },
+        {
+            "key": "cet6",
+            "name": "大学英语六级",
+            "description": "CET-6 核心词汇",
+            "difficulty_level": 7,
+            "category": "考试",
+            "is_builtin": true
+        },
+        {
+            "key": "ielts",
+            "name": "雅思词汇",
+            "description": "IELTS 核心词汇",
+            "difficulty_level": 8,
+            "category": "考试",
+            "is_builtin": true
+        },
+        {
+            "key": "toefl",
+            "name": "托福词汇",
+            "description": "TOEFL 核心词汇",
+            "difficulty_level": 8,
+            "category": "考试",
+            "is_builtin": true
+        }
+    ]
+}

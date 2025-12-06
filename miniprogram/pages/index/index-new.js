@@ -99,10 +99,7 @@ Page({
 
     startLearning() {
         if (this.data.todayTask.total > 0) {
-            const bookId = this.data.selectedBook ? this.data.selectedBook.id : 1;
-            wx.navigateTo({
-                url: `/pages/learn/learn?bookId=${bookId}`
-            });
+            wx.navigateTo({ url: '/pages/learn/learn' });
         } else {
             wx.showToast({ title: '暂无学习任务', icon: 'none' });
         }

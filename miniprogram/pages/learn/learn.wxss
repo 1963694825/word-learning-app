@@ -4,6 +4,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .loading, .finished {
@@ -26,9 +27,18 @@
   font-weight: 600;
 }
 
+/* 学习内容容器 */
+.learn-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
 /* 进度条 */
 .progress-bar {
   margin-bottom: 40rpx;
+  flex-shrink: 0;
 }
 
 .progress-text {
@@ -55,8 +65,10 @@
 .word-card {
   position: relative;
   width: 100%;
-  height: 600rpx;
-  margin-bottom: 60rpx;
+  flex: 1;
+  min-height: 400rpx;
+  max-height: 600rpx;
+  margin-bottom: 40rpx;
   perspective: 1000rpx;
 }
 
@@ -71,9 +83,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 60rpx;
+  padding: 40rpx;
   backface-visibility: hidden;
   transition: transform 0.6s;
+  box-sizing: border-box;
+  overflow-y: auto;
 }
 
 .card-front {
@@ -93,51 +107,58 @@
 }
 
 .word {
-  font-size: 72rpx;
+  font-size: 64rpx;
   font-weight: 700;
   color: #1f2937;
-  margin-bottom: 20rpx;
+  margin-bottom: 16rpx;
+  flex-shrink: 0;
 }
 
 .phonetic {
-  font-size: 32rpx;
+  font-size: 28rpx;
   color: #6b7280;
-  margin-bottom: 30rpx;
+  margin-bottom: 24rpx;
+  flex-shrink: 0;
 }
 
 .hint {
-  font-size: 28rpx;
+  font-size: 24rpx;
   color: #9ca3af;
-  margin-top: 40rpx;
+  margin-top: 30rpx;
+  flex-shrink: 0;
 }
 
 .definitions {
   width: 100%;
   margin-top: 20rpx;
+  flex: 1;
+  overflow-y: auto;
 }
 
 .definition-item {
-  margin-bottom: 20rpx;
+  margin-bottom: 16rpx;
   text-align: left;
 }
 
 .pos {
-  font-size: 24rpx;
+  font-size: 22rpx;
   color: #3b82f6;
   margin-right: 10rpx;
   font-weight: 600;
 }
 
 .meaning {
-  font-size: 32rpx;
+  font-size: 28rpx;
   color: #374151;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 /* 操作按钮 */
 .actions {
   display: flex;
   gap: 30rpx;
+  flex-shrink: 0;
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 .btn-unknow, .btn-know {
@@ -147,6 +168,10 @@
   border-radius: 50rpx;
   font-size: 32rpx;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
 }
 
 .btn-unknow {

@@ -11,6 +11,17 @@ class StatsController {
             ctx.body = error(err.message, 500);
         }
     }
+
+    async getBookStats(ctx) {
+        try {
+            const userId = ctx.state.user.id;
+            const bookId = parseInt(ctx.params.bookId);
+            const stats = await statsService.getBookStats(userId, bookId);
+            ctx.body = success(stats);
+        } catch (err) {
+            ctx.body = error(err.message, 500);
+        }
+    }
 }
 
 module.exports = new StatsController();

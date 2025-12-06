@@ -1,0 +1,6786 @@
+{
+  "total_words": 565,
+  "description": "人教版PEP小学英语核心词汇汇总(三至六年级)",
+  "words": [
+    {
+      "word": "above",
+      "phonetic_us": "/əˈbʌv/",
+      "phonetic_uk": "/əˈbʌv/",
+      "definitions": [
+        {
+          "pos": "prep.",
+          "meaning": "在(或向)……上面",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "active",
+      "phonetic_us": "/ˈæktɪv/",
+      "phonetic_uk": "/ˈæktɪv/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "积极的;活跃的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "afraid",
+      "phonetic_us": "/əˈfreɪd/",
+      "phonetic_uk": "/əˈfreɪd/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "害怕",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "ago",
+      "phonetic_us": "/əˈɡoʊ/",
+      "phonetic_uk": "/əˈɡəʊ/",
+      "definitions": [
+        {
+          "pos": "adv.",
+          "meaning": "以前",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "amazing",
+      "phonetic_us": "/əˈmeɪzɪŋ/",
+      "phonetic_uk": "/əˈmeɪzɪŋ/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "令人惊奇的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "angry",
+      "phonetic_us": "/ˈæŋɡri/",
+      "phonetic_uk": "/ˈæŋɡri/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "生气的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "ant",
+      "phonetic_us": "/ænt/",
+      "phonetic_uk": "/ænt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "蚂蚁",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "apple",
+      "phonetic_us": "/ˈæpl/",
+      "phonetic_uk": "/ˈæpl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "苹果",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "April",
+      "phonetic_us": "/ˈeɪprəl/",
+      "phonetic_uk": "/ˈeɪprəl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "四月",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "arm",
+      "phonetic_us": "/ɑːrm/",
+      "phonetic_uk": "/ɑːm/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "胳膊",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "art room",
+      "phonetic_us": "/ɑːrt ruːm/",
+      "phonetic_uk": "/ɑːt ruːm/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "美术教室",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "ate",
+      "phonetic_us": "/eɪt/",
+      "phonetic_uk": "/et/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "吃(eat的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "August",
+      "phonetic_us": "/ˈɔːɡəst/",
+      "phonetic_uk": "/ˈɔːɡəst/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "八月",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "aunt",
+      "phonetic_us": "/ænt/",
+      "phonetic_uk": "/ɑːnt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "姑母;姨母;伯母;婶母;舅母",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "autumn",
+      "phonetic_us": "/ˈɔːtəm/",
+      "phonetic_uk": "/ˈɔːtəm/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "秋天",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "baby brother",
+      "phonetic_us": "/ˈbeɪbi ˈbrʌðər/",
+      "phonetic_uk": "/ˈbeɪbi ˈbrʌðə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "婴儿小弟弟",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "bad",
+      "phonetic_us": "/bæd/",
+      "phonetic_uk": "/bæd/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "邪恶的;坏的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "badminton",
+      "phonetic_us": "/ˈbædmɪntən/",
+      "phonetic_uk": "/ˈbædmɪntən/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "羽毛球运动",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "bag",
+      "phonetic_us": "/bæɡ/",
+      "phonetic_uk": "/bæɡ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "书包",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "ball",
+      "phonetic_us": "/bɔːl/",
+      "phonetic_uk": "/bɔːl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "球",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "banana",
+      "phonetic_us": "/bəˈnænə/",
+      "phonetic_uk": "/bəˈnɑːnə/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "香蕉",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "basket",
+      "phonetic_us": "/ˈbæskɪt/",
+      "phonetic_uk": "/ˈbɑːskɪt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "篮;筐",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "bathroom",
+      "phonetic_us": "/ˈbæθruːm/",
+      "phonetic_uk": "/ˈbɑːθruːm/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "浴室;洗手间",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "beach",
+      "phonetic_us": "/biːtʃ/",
+      "phonetic_uk": "/biːtʃ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "海滩;沙滩",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "bear",
+      "phonetic_us": "/ber/",
+      "phonetic_uk": "/beə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "熊",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "beautiful",
+      "phonetic_us": "/ˈbjuːtɪfl/",
+      "phonetic_uk": "/ˈbjuːtɪfl/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "美丽的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "become",
+      "phonetic_us": "/bɪˈkʌm/",
+      "phonetic_uk": "/bɪˈkʌm/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "开始变得;变成",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "bed",
+      "phonetic_us": "/bed/",
+      "phonetic_uk": "/bed/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "床",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "bedroom",
+      "phonetic_us": "/ˈbedruːm/",
+      "phonetic_uk": "/ˈbedruːm/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "卧室",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "beef",
+      "phonetic_us": "/biːf/",
+      "phonetic_uk": "/biːf/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "牛肉",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "before",
+      "phonetic_us": "/bɪˈfɔːr/",
+      "phonetic_uk": "/bɪˈfɔː(r)/",
+      "definitions": [
+        {
+          "pos": "prep.",
+          "meaning": "在……之前",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "behind",
+      "phonetic_us": "/bɪˈhaɪnd/",
+      "phonetic_uk": "/bɪˈhaɪnd/",
+      "definitions": [
+        {
+          "pos": "prep.",
+          "meaning": "在(或向)……后面",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "beside",
+      "phonetic_us": "/bɪˈsaɪd/",
+      "phonetic_uk": "/bɪˈsaɪd/",
+      "definitions": [
+        {
+          "pos": "prep.",
+          "meaning": "在旁边(附近)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "better",
+      "phonetic_us": "/ˈbetər/",
+      "phonetic_uk": "/ˈbetə(r)/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "更好的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "between",
+      "phonetic_us": "/bɪˈtwiːn/",
+      "phonetic_uk": "/bɪˈtwiːn/",
+      "definitions": [
+        {
+          "pos": "prep.",
+          "meaning": "在……中间",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "big",
+      "phonetic_us": "/bɪɡ/",
+      "phonetic_uk": "/bɪɡ/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "大的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "bigger",
+      "phonetic_us": "/ˈbɪɡər/",
+      "phonetic_uk": "/ˈbɪɡə(r)/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "更大的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "bike",
+      "phonetic_us": "/baɪk/",
+      "phonetic_uk": "/baɪk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "自行车",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "bird",
+      "phonetic_us": "/bɜːrd/",
+      "phonetic_uk": "/bɜːd/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "鸟",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "black",
+      "phonetic_us": "/blæk/",
+      "phonetic_uk": "/blæk/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "黑色的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "blackboard",
+      "phonetic_us": "/ˈblækbɔːrd/",
+      "phonetic_uk": "/ˈblækbɔːd/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "黑板",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "blue",
+      "phonetic_us": "/bluː/",
+      "phonetic_uk": "/bluː/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "蓝色的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "boat",
+      "phonetic_us": "/boʊt/",
+      "phonetic_uk": "/bəʊt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "小船",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "body",
+      "phonetic_us": "/ˈbɑːdi/",
+      "phonetic_uk": "/ˈbɒdi/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "身体",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "book",
+      "phonetic_us": "/bʊk/",
+      "phonetic_uk": "/bʊk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "书",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "bookstore",
+      "phonetic_us": "/ˈbʊkstɔːr/",
+      "phonetic_uk": "/ˈbʊkstɔː(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "书店",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "both",
+      "phonetic_us": "/boʊθ/",
+      "phonetic_uk": "/bəʊθ/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "两个都",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "bottle",
+      "phonetic_us": "/ˈbɑːtl/",
+      "phonetic_uk": "/ˈbɒtl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "瓶子",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "bought",
+      "phonetic_us": "/bɔːt/",
+      "phonetic_uk": "/bɔːt/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "买(buy的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "bought gifts",
+      "phonetic_us": "/bɔːt ɡɪfts/",
+      "phonetic_uk": "/bɔːt ɡɪfts/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "买礼物",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "bowl",
+      "phonetic_us": "/boʊl/",
+      "phonetic_uk": "/bəʊl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "碗",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "box",
+      "phonetic_us": "/bɑːks/",
+      "phonetic_uk": "/bɒks/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "盒;箱",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "boy",
+      "phonetic_us": "/bɔɪ/",
+      "phonetic_uk": "/bɔɪ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "男孩",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "bread",
+      "phonetic_us": "/bred/",
+      "phonetic_uk": "/bred/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "面包",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "breakfast",
+      "phonetic_us": "/ˈbrekfəst/",
+      "phonetic_uk": "/ˈbrekfəst/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "早餐;早饭",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "breath",
+      "phonetic_us": "/breθ/",
+      "phonetic_uk": "/breθ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "呼吸",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "bridge",
+      "phonetic_us": "/brɪdʒ/",
+      "phonetic_uk": "/brɪdʒ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "桥",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "broken",
+      "phonetic_us": "/ˈbroʊkən/",
+      "phonetic_uk": "/ˈbrəʊkən/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "破损的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "brother",
+      "phonetic_us": "/ˈbrʌðər/",
+      "phonetic_uk": "/ˈbrʌðə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "兄;弟",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "brown",
+      "phonetic_us": "/braʊn/",
+      "phonetic_uk": "/braʊn/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "棕色的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "building",
+      "phonetic_us": "/ˈbɪldɪŋ/",
+      "phonetic_uk": "/ˈbɪldɪŋ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "建筑物;房子;楼房",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "bus",
+      "phonetic_us": "/bʌs/",
+      "phonetic_uk": "/bʌs/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "公共汽车",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "businessman",
+      "phonetic_us": "/ˈbɪznəsmən/",
+      "phonetic_uk": "/ˈbɪznəsmən/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "商人",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "buy",
+      "phonetic_us": "/baɪ/",
+      "phonetic_uk": "/baɪ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "买",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "by",
+      "phonetic_us": "/baɪ/",
+      "phonetic_uk": "/baɪ/",
+      "definitions": [
+        {
+          "pos": "prep.",
+          "meaning": "(表示方式)乘",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "cake",
+      "phonetic_us": "/keɪk/",
+      "phonetic_uk": "/keɪk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "蛋糕",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "camp",
+      "phonetic_us": "/kæmp/",
+      "phonetic_uk": "/kæmp/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "野营",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "Canada",
+      "phonetic_us": "/ˈkænədə/",
+      "phonetic_uk": "/ˈkænədə/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "加拿大",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "candy",
+      "phonetic_us": "/ˈkændi/",
+      "phonetic_uk": "/ˈkændi/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "糖果",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "cap",
+      "phonetic_us": "/kæp/",
+      "phonetic_uk": "/kæp/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "帽子",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "car",
+      "phonetic_us": "/kɑːr/",
+      "phonetic_uk": "/kɑː(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "小汽车",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "carrot",
+      "phonetic_us": "/ˈkærət/",
+      "phonetic_uk": "/ˈkærət/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "胡萝卜",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "cat",
+      "phonetic_us": "/kæt/",
+      "phonetic_uk": "/kæt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "猫",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "chair",
+      "phonetic_us": "/tʃer/",
+      "phonetic_uk": "/tʃeə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "椅子",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "chase",
+      "phonetic_us": "/tʃeɪs/",
+      "phonetic_uk": "/tʃeɪs/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "追赶",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "cheap",
+      "phonetic_us": "/tʃiːp/",
+      "phonetic_uk": "/tʃiːp/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "便宜的;花钱少的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "cheetah",
+      "phonetic_us": "/ˈtʃiːtə/",
+      "phonetic_uk": "/ˈtʃiːtə/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "猎豹",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "chicken",
+      "phonetic_us": "/ˈtʃɪkɪn/",
+      "phonetic_uk": "/ˈtʃɪkɪn/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "鸡肉",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "children",
+      "phonetic_us": "/ˈtʃɪldrən/",
+      "phonetic_uk": "/ˈtʃɪldrən/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "儿童(child的复数)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "China",
+      "phonetic_us": "/ˈtʃaɪnə/",
+      "phonetic_uk": "/ˈtʃaɪnə/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "中国",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "Chinese book",
+      "phonetic_us": "/ˌtʃaɪˈniːz bʊk/",
+      "phonetic_uk": "/ˌtʃaɪˈniːz bʊk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "语文书",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "chopsticks",
+      "phonetic_us": "/ˈtʃɑːpstɪks/",
+      "phonetic_uk": "/ˈtʃɒpstɪks/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "筷子",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "cinema",
+      "phonetic_us": "/ˈsɪnəmə/",
+      "phonetic_uk": "/ˈsɪnəmə/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "电影院",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "classroom",
+      "phonetic_us": "/ˈklæsruːm/",
+      "phonetic_uk": "/ˈklɑːsruːm/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "教室",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "clean my room",
+      "phonetic_us": "/kliːn maɪ ruːm/",
+      "phonetic_uk": "/kliːn maɪ ruːm/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "打扫我的房间",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "cleaned",
+      "phonetic_us": "/kliːnd/",
+      "phonetic_uk": "/kliːnd/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "打扫(clean的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "clever",
+      "phonetic_us": "/ˈklevər/",
+      "phonetic_uk": "/ˈklevə(r)/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "聪明的;聪颖的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "climbing",
+      "phonetic_us": "/ˈklaɪmɪŋ/",
+      "phonetic_uk": "/ˈklaɪmɪŋ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "(正在)攀登;攀爬",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "clock",
+      "phonetic_us": "/klɑːk/",
+      "phonetic_uk": "/klɒk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "时钟;钟",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "clothes",
+      "phonetic_us": "/kloʊðz/",
+      "phonetic_uk": "/kləʊðz/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "衣服;服装",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "cloudy",
+      "phonetic_us": "/ˈklaʊdi/",
+      "phonetic_uk": "/ˈklaʊdi/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "阴天的;多云的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "club",
+      "phonetic_us": "/klʌb/",
+      "phonetic_uk": "/klʌb/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "俱乐部",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "coach",
+      "phonetic_us": "/koʊtʃ/",
+      "phonetic_uk": "/kəʊtʃ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "教练",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "coat",
+      "phonetic_us": "/koʊt/",
+      "phonetic_uk": "/kəʊt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "外衣;大衣",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "cold",
+      "phonetic_us": "/koʊld/",
+      "phonetic_uk": "/kəʊld/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "寒冷的;冷的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "comic book",
+      "phonetic_us": "/ˈkɑːmɪk bʊk/",
+      "phonetic_uk": "/ˈkɒmɪk bʊk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "连环画册",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "computer",
+      "phonetic_us": "/kəmˈpjuːtər/",
+      "phonetic_uk": "/kəmˈpjuːtə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "计算机",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "computer room",
+      "phonetic_us": "/kəmˈpjuːtər ruːm/",
+      "phonetic_uk": "/kəmˈpjuːtə(r) ruːm/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "计算机房",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "cook",
+      "phonetic_us": "/kʊk/",
+      "phonetic_uk": "/kʊk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "厨师",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "cool",
+      "phonetic_us": "/kuːl/",
+      "phonetic_uk": "/kuːl/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "凉的;凉爽的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "could",
+      "phonetic_us": "/kʊd/",
+      "phonetic_uk": "/kʊd/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "能(can的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "count",
+      "phonetic_us": "/kaʊnt/",
+      "phonetic_uk": "/kaʊnt/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "数数",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "count to ten",
+      "phonetic_us": "/kaʊnt tuː ten/",
+      "phonetic_uk": "/kaʊnt tuː ten/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "数到十",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "country",
+      "phonetic_us": "/ˈkʌntri/",
+      "phonetic_uk": "/ˈkʌntri/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "国家",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "countryside",
+      "phonetic_us": "/ˈkʌntrisaɪd/",
+      "phonetic_uk": "/ˈkʌntrisaɪd/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "乡村",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "cousin",
+      "phonetic_us": "/ˈkʌzn/",
+      "phonetic_uk": "/ˈkʌzn/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "同辈表亲(或堂亲)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "cow",
+      "phonetic_us": "/kaʊ/",
+      "phonetic_uk": "/kaʊ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "母牛;奶牛",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "crayon",
+      "phonetic_us": "/ˈkreɪɑːn/",
+      "phonetic_uk": "/ˈkreɪən/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "蜡笔",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "crossing",
+      "phonetic_us": "/ˈkrɔːsɪŋ/",
+      "phonetic_uk": "/ˈkrɒsɪŋ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "十字路口",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "cycling",
+      "phonetic_us": "/ˈsaɪklɪŋ/",
+      "phonetic_uk": "/ˈsaɪklɪŋ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "骑自行车运动",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "dad",
+      "phonetic_us": "/dæd/",
+      "phonetic_uk": "/dæd/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "爸爸",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "dance",
+      "phonetic_us": "/dæns/",
+      "phonetic_uk": "/dɑːns/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "跳舞",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "dancing",
+      "phonetic_us": "/ˈdænsɪŋ/",
+      "phonetic_uk": "/ˈdɑːnsɪŋ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "跳舞;舞蹈",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "December",
+      "phonetic_us": "/dɪˈsembər/",
+      "phonetic_uk": "/dɪˈsembə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "十二月",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "deep",
+      "phonetic_us": "/diːp/",
+      "phonetic_uk": "/diːp/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "深的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "delicious",
+      "phonetic_us": "/dɪˈlɪʃəs/",
+      "phonetic_uk": "/dɪˈlɪʃəs/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "美味的;可口的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "desk",
+      "phonetic_us": "/desk/",
+      "phonetic_uk": "/desk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "书桌",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "dictionary",
+      "phonetic_us": "/ˈdɪkʃəneri/",
+      "phonetic_uk": "/ˈdɪkʃənri/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "词典",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "different",
+      "phonetic_us": "/ˈdɪfrənt/",
+      "phonetic_uk": "/ˈdɪfrənt/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "不同的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "dining hall",
+      "phonetic_us": "/ˈdaɪnɪŋ hɔːl/",
+      "phonetic_uk": "/ˈdaɪnɪŋ hɔːl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "饭厅",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "dinner",
+      "phonetic_us": "/ˈdɪnər/",
+      "phonetic_uk": "/ˈdɪnə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "正餐",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "dinosaur",
+      "phonetic_us": "/ˈdaɪnəsɔːr/",
+      "phonetic_uk": "/ˈdaɪnəsɔː(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "恐龙",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "do homework",
+      "phonetic_us": "/duː ˈhoʊmwɜːrk/",
+      "phonetic_uk": "/duː ˈhəʊmwɜːk/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "做作业",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "do kung fu",
+      "phonetic_us": "/duː ˌkʌŋ ˈfuː/",
+      "phonetic_uk": "/duː ˌkʌŋ ˈfuː/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "练武术",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "do morning exercises",
+      "phonetic_us": "/duː ˈmɔːrnɪŋ ˈeksərsaɪzɪz/",
+      "phonetic_uk": "/duː ˈmɔːnɪŋ ˈeksəsaɪzɪz/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "做早操",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "doctor",
+      "phonetic_us": "/ˈdɑːktər/",
+      "phonetic_uk": "/ˈdɒktə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "医生",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "dog",
+      "phonetic_us": "/dɔːɡ/",
+      "phonetic_uk": "/dɒɡ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "狗",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "doing morning exercises",
+      "phonetic_us": "/ˈduːɪŋ ˈmɔːrnɪŋ ˈeksərsaɪzɪz/",
+      "phonetic_uk": "/ˈduːɪŋ ˈmɔːnɪŋ ˈeksəsaɪzɪz/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "(正在)做早操",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "door",
+      "phonetic_us": "/dɔːr/",
+      "phonetic_uk": "/dɔː(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "门",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "down",
+      "phonetic_us": "/daʊn/",
+      "phonetic_uk": "/daʊn/",
+      "definitions": [
+        {
+          "pos": "adv.",
+          "meaning": "减少;降低",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "drank",
+      "phonetic_us": "/dræŋk/",
+      "phonetic_uk": "/dræŋk/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "喝(drink的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "draw",
+      "phonetic_us": "/drɔː/",
+      "phonetic_uk": "/drɔː/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "画",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "draw cartoons",
+      "phonetic_us": "/drɔː kɑːrˈtuːnz/",
+      "phonetic_uk": "/drɔː kɑːˈtuːnz/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "画漫画",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "dream",
+      "phonetic_us": "/driːm/",
+      "phonetic_uk": "/driːm/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "梦",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "dress",
+      "phonetic_us": "/dres/",
+      "phonetic_uk": "/dres/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "连衣裙",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "drinking",
+      "phonetic_us": "/ˈdrɪŋkɪŋ/",
+      "phonetic_uk": "/ˈdrɪŋkɪŋ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "(正在)喝(水)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "driver",
+      "phonetic_us": "/ˈdraɪvər/",
+      "phonetic_uk": "/ˈdraɪvə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "司机",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "duck",
+      "phonetic_us": "/dʌk/",
+      "phonetic_uk": "/dʌk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "鸭子",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "ear",
+      "phonetic_us": "/ɪr/",
+      "phonetic_uk": "/ɪə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "耳朵",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "easy",
+      "phonetic_us": "/ˈiːzi/",
+      "phonetic_uk": "/ˈiːzi/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "容易的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "eat breakfast",
+      "phonetic_us": "/iːt ˈbrekfəst/",
+      "phonetic_uk": "/iːt ˈbrekfəst/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "吃早饭",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "eat dinner",
+      "phonetic_us": "/iːt ˈdɪnər/",
+      "phonetic_uk": "/iːt ˈdɪnə(r)/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "吃晚饭",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "eating",
+      "phonetic_us": "/ˈiːtɪŋ/",
+      "phonetic_uk": "/ˈiːtɪŋ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "(正在)吃",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "eating lunch",
+      "phonetic_us": "/ˈiːtɪŋ lʌntʃ/",
+      "phonetic_uk": "/ˈiːtɪŋ lʌntʃ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "(正在)吃午饭",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "egg",
+      "phonetic_us": "/eɡ/",
+      "phonetic_uk": "/eɡ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "蛋",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "eight",
+      "phonetic_us": "/eɪt/",
+      "phonetic_uk": "/eɪt/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "八",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "eighteen",
+      "phonetic_us": "/ˌeɪˈtiːn/",
+      "phonetic_uk": "/ˌeɪˈtiːn/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "十八",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "elephant",
+      "phonetic_us": "/ˈelɪfənt/",
+      "phonetic_uk": "/ˈelɪfənt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "大象",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "eleven",
+      "phonetic_us": "/ɪˈlevn/",
+      "phonetic_uk": "/ɪˈlevn/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "十一",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "English book",
+      "phonetic_us": "/ˈɪŋɡlɪʃ bʊk/",
+      "phonetic_uk": "/ˈɪŋɡlɪʃ bʊk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "英语书",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "English class",
+      "phonetic_us": "/ˈɪŋɡlɪʃ klæs/",
+      "phonetic_uk": "/ˈɪŋɡlɪʃ klɑːs/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "英语课",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "enjoy",
+      "phonetic_us": "/ɪnˈdʒɔɪ/",
+      "phonetic_uk": "/ɪnˈdʒɔɪ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "享受……乐趣;喜爱",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "eraser",
+      "phonetic_us": "/ɪˈreɪsər/",
+      "phonetic_uk": "/ɪˈreɪzə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "橡皮",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "evening",
+      "phonetic_us": "/ˈiːvnɪŋ/",
+      "phonetic_uk": "/ˈiːvnɪŋ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "晚上;傍晚",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "everyone",
+      "phonetic_us": "/ˈevriwʌn/",
+      "phonetic_uk": "/ˈevriwʌn/",
+      "definitions": [
+        {
+          "pos": "pron.",
+          "meaning": "每人",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "exercise",
+      "phonetic_us": "/ˈeksərsaɪz/",
+      "phonetic_uk": "/ˈeksəsaɪz/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "活动;运动",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "expensive",
+      "phonetic_us": "/ɪkˈspensɪv/",
+      "phonetic_uk": "/ɪkˈspensɪv/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "昂贵的;花钱多的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "eye",
+      "phonetic_us": "/aɪ/",
+      "phonetic_uk": "/aɪ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "眼睛",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "face",
+      "phonetic_us": "/feɪs/",
+      "phonetic_uk": "/feɪs/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "脸",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "factory",
+      "phonetic_us": "/ˈfæktri/",
+      "phonetic_uk": "/ˈfæktri/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "工厂",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "family",
+      "phonetic_us": "/ˈfæməli/",
+      "phonetic_uk": "/ˈfæməli/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "家;家庭",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "fan",
+      "phonetic_us": "/fæn/",
+      "phonetic_uk": "/fæn/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "风扇",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "farmer",
+      "phonetic_us": "/ˈfɑːrmər/",
+      "phonetic_uk": "/ˈfɑːmə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "农民",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "faster",
+      "phonetic_us": "/ˈfæstər/",
+      "phonetic_uk": "/ˈfɑːstə(r)/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "更快的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "fat",
+      "phonetic_us": "/fæt/",
+      "phonetic_uk": "/fæt/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "胖的;肥的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "father",
+      "phonetic_us": "/ˈfɑːðər/",
+      "phonetic_uk": "/ˈfɑːðə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "父亲;爸爸",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "February",
+      "phonetic_us": "/ˈfebrueri/",
+      "phonetic_uk": "/ˈfebruəri/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "二月",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "feel",
+      "phonetic_us": "/fiːl/",
+      "phonetic_uk": "/fiːl/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "觉得;感到",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "fell",
+      "phonetic_us": "/fel/",
+      "phonetic_uk": "/fel/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "摔倒(fall的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "felt",
+      "phonetic_us": "/felt/",
+      "phonetic_uk": "/felt/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "感觉(feel的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "fifteen",
+      "phonetic_us": "/ˌfɪfˈtiːn/",
+      "phonetic_uk": "/ˌfɪfˈtiːn/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "十五",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "fifth",
+      "phonetic_us": "/fɪfθ/",
+      "phonetic_uk": "/fɪfθ/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "第五(的)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "film",
+      "phonetic_us": "/fɪlm/",
+      "phonetic_uk": "/fɪlm/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "电影",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "first",
+      "phonetic_us": "/fɜːrst/",
+      "phonetic_uk": "/fɜːst/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "第一(的)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "first floor",
+      "phonetic_us": "/fɜːrst flɔːr/",
+      "phonetic_uk": "/fɜːst flɔː(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "一楼",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "fish",
+      "phonetic_us": "/fɪʃ/",
+      "phonetic_uk": "/fɪʃ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "鱼",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "fisherman",
+      "phonetic_us": "/ˈfɪʃərmən/",
+      "phonetic_uk": "/ˈfɪʃəmən/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "渔民",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "five",
+      "phonetic_us": "/faɪv/",
+      "phonetic_uk": "/faɪv/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "五",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "fixed",
+      "phonetic_us": "/fɪkst/",
+      "phonetic_uk": "/fɪkst/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "修理(fix的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "floor",
+      "phonetic_us": "/flɔːr/",
+      "phonetic_uk": "/flɔː(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "地板",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "foot",
+      "phonetic_us": "/fʊt/",
+      "phonetic_uk": "/fʊt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "脚",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "forest",
+      "phonetic_us": "/ˈfɔːrɪst/",
+      "phonetic_uk": "/ˈfɒrɪst/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "森林;林区",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "fork",
+      "phonetic_us": "/fɔːrk/",
+      "phonetic_uk": "/fɔːk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "餐叉",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "four",
+      "phonetic_us": "/fɔːr/",
+      "phonetic_uk": "/fɔː(r)/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "四",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "fourteen",
+      "phonetic_us": "/ˌfɔːrˈtiːn/",
+      "phonetic_uk": "/ˌfɔːˈtiːn/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "十四",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "fourth",
+      "phonetic_us": "/fɔːrθ/",
+      "phonetic_uk": "/fɔːθ/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "第四(的)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "fresh",
+      "phonetic_us": "/freʃ/",
+      "phonetic_uk": "/freʃ/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "新鲜的;刚摘的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "Friday",
+      "phonetic_us": "/ˈfraɪdeɪ/",
+      "phonetic_uk": "/ˈfraɪdeɪ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "星期五",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "fridge",
+      "phonetic_us": "/frɪdʒ/",
+      "phonetic_uk": "/frɪdʒ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "冰箱",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "friend",
+      "phonetic_us": "/frend/",
+      "phonetic_uk": "/frend/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "朋友",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "friendly",
+      "phonetic_us": "/ˈfrendli/",
+      "phonetic_uk": "/ˈfrendli/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "友好的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "front",
+      "phonetic_us": "/frʌnt/",
+      "phonetic_uk": "/frʌnt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "正面;前面",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "fruit",
+      "phonetic_us": "/fruːt/",
+      "phonetic_uk": "/fruːt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "水果",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "funny",
+      "phonetic_us": "/ˈfʌni/",
+      "phonetic_uk": "/ˈfʌni/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "滑稽的;好笑的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "get up",
+      "phonetic_us": "/ɡet ʌp/",
+      "phonetic_uk": "/ɡet ʌp/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "起床",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "giraffe",
+      "phonetic_us": "/dʒəˈræf/",
+      "phonetic_uk": "/dʒəˈrɑːf/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "长颈鹿",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "girl",
+      "phonetic_us": "/ɡɜːrl/",
+      "phonetic_uk": "/ɡɜːl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "女孩",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "glasses",
+      "phonetic_us": "/ˈɡlæsɪz/",
+      "phonetic_uk": "/ˈɡlɑːsɪz/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "眼镜",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "glove",
+      "phonetic_us": "/ɡlʌv/",
+      "phonetic_uk": "/ɡlʌv/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "手套",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "go cycling",
+      "phonetic_us": "/ɡoʊ ˈsaɪklɪŋ/",
+      "phonetic_uk": "/ɡəʊ ˈsaɪklɪŋ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "去骑自行车",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "go for a walk",
+      "phonetic_us": "/ɡoʊ fɔːr ə wɔːk/",
+      "phonetic_uk": "/ɡəʊ fɔːr ə wɔːk/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "散步",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "go home",
+      "phonetic_us": "/ɡoʊ hoʊm/",
+      "phonetic_uk": "/ɡəʊ həʊm/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "回家",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "go on a picnic",
+      "phonetic_us": "/ɡoʊ ɑːn ə ˈpɪknɪk/",
+      "phonetic_uk": "/ɡəʊ ɒn ə ˈpɪknɪk/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "去野餐",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "go shopping",
+      "phonetic_us": "/ɡoʊ ˈʃɑːpɪŋ/",
+      "phonetic_uk": "/ɡəʊ ˈʃɒpɪŋ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "去买东西;购物",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "go swimming",
+      "phonetic_us": "/ɡoʊ ˈswɪmɪŋ/",
+      "phonetic_uk": "/ɡəʊ ˈswɪmɪŋ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "去游泳",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "go to bed",
+      "phonetic_us": "/ɡoʊ tuː bed/",
+      "phonetic_uk": "/ɡəʊ tuː bed/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "上床睡觉",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "go to school",
+      "phonetic_us": "/ɡoʊ tuː skuːl/",
+      "phonetic_uk": "/ɡəʊ tuː skuːl/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "去上学",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "goal",
+      "phonetic_us": "/ɡoʊl/",
+      "phonetic_uk": "/ɡəʊl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "射门",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "grandfather",
+      "phonetic_us": "/ˈɡrænfɑːðər/",
+      "phonetic_uk": "/ˈɡrænfɑːðə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "(外)祖父",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "grandma",
+      "phonetic_us": "/ˈɡrænmɑː/",
+      "phonetic_uk": "/ˈɡrænmɑː/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "(外)祖母",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "grandmother",
+      "phonetic_us": "/ˈɡrænmʌðər/",
+      "phonetic_uk": "/ˈɡrænmʌðə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "(外)祖母",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "grandpa",
+      "phonetic_us": "/ˈɡrænpɑː/",
+      "phonetic_uk": "/ˈɡrænpɑː/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "(外)祖父",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "grape",
+      "phonetic_us": "/ɡreɪp/",
+      "phonetic_uk": "/ɡreɪp/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "葡萄",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "grass",
+      "phonetic_us": "/ɡræs/",
+      "phonetic_uk": "/ɡrɑːs/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "草坪",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "green",
+      "phonetic_us": "/ɡriːn/",
+      "phonetic_uk": "/ɡriːn/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "绿色的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "green beans",
+      "phonetic_us": "/ɡriːn biːnz/",
+      "phonetic_uk": "/ɡriːn biːnz/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "豆角;四季豆",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "gym",
+      "phonetic_us": "/dʒɪm/",
+      "phonetic_uk": "/dʒɪm/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "体育馆",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "had",
+      "phonetic_us": "/hæd/",
+      "phonetic_uk": "/hæd/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "患病;得病(have的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "had a cold",
+      "phonetic_us": "/hæd ə koʊld/",
+      "phonetic_uk": "/hæd ə kəʊld/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "感冒",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "hair",
+      "phonetic_us": "/her/",
+      "phonetic_uk": "/heə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "头发",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "hall",
+      "phonetic_us": "/hɔːl/",
+      "phonetic_uk": "/hɔːl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "大厅",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "hamburger",
+      "phonetic_us": "/ˈhæmbɜːrɡər/",
+      "phonetic_uk": "/ˈhæmbɜːɡə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "汉堡包",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "hand",
+      "phonetic_us": "/hænd/",
+      "phonetic_uk": "/hænd/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "手",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "happy",
+      "phonetic_us": "/ˈhæpi/",
+      "phonetic_uk": "/ˈhæpi/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "高兴的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "hard-working",
+      "phonetic_us": "/ˌhɑːrd ˈwɜːrkɪŋ/",
+      "phonetic_uk": "/ˌhɑːd ˈwɜːkɪŋ/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "工作努力的;辛勤的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "hat",
+      "phonetic_us": "/hæt/",
+      "phonetic_uk": "/hæt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "帽子",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "have...class",
+      "phonetic_us": "/hæv klæs/",
+      "phonetic_uk": "/hæv klɑːs/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "上……课",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "having...class",
+      "phonetic_us": "/ˈhævɪŋ klæs/",
+      "phonetic_uk": "/ˈhævɪŋ klɑːs/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "(正在)上……课",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "head",
+      "phonetic_us": "/hed/",
+      "phonetic_uk": "/hed/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "头",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "healthy",
+      "phonetic_us": "/ˈhelθi/",
+      "phonetic_uk": "/ˈhelθi/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "健康的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "hear",
+      "phonetic_us": "/hɪr/",
+      "phonetic_uk": "/hɪə(r)/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "听见",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "heavier",
+      "phonetic_us": "/ˈheviər/",
+      "phonetic_uk": "/ˈheviə(r)/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "更重的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "helpful",
+      "phonetic_us": "/ˈhelpfl/",
+      "phonetic_uk": "/ˈhelpfl/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "有用的;愿意帮忙的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "hen",
+      "phonetic_us": "/hen/",
+      "phonetic_uk": "/hen/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "母鸡",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "her",
+      "phonetic_us": "/hɜːr/",
+      "phonetic_uk": "/hɜː(r)/",
+      "definitions": [
+        {
+          "pos": "pron.",
+          "meaning": "她的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "hers",
+      "phonetic_us": "/hɜːrz/",
+      "phonetic_uk": "/hɜːz/",
+      "definitions": [
+        {
+          "pos": "pron.",
+          "meaning": "她的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "hiking",
+      "phonetic_us": "/ˈhaɪkɪŋ/",
+      "phonetic_uk": "/ˈhaɪkɪŋ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "远足",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "hill",
+      "phonetic_us": "/hɪl/",
+      "phonetic_uk": "/hɪl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "山丘;小山",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "his",
+      "phonetic_us": "/hɪz/",
+      "phonetic_uk": "/hɪz/",
+      "definitions": [
+        {
+          "pos": "pron.",
+          "meaning": "他的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "hobby",
+      "phonetic_us": "/ˈhɑːbi/",
+      "phonetic_uk": "/ˈhɒbi/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "业余爱好",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "homework",
+      "phonetic_us": "/ˈhoʊmwɜːrk/",
+      "phonetic_uk": "/ˈhəʊmwɜːk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "作业",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "horse",
+      "phonetic_us": "/hɔːrs/",
+      "phonetic_uk": "/hɔːs/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "马",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "hospital",
+      "phonetic_us": "/ˈhɑːspɪtl/",
+      "phonetic_uk": "/ˈhɒspɪtl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "医院",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "hot",
+      "phonetic_us": "/hɑːt/",
+      "phonetic_uk": "/hɒt/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "热的;烫的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "hotel",
+      "phonetic_us": "/hoʊˈtel/",
+      "phonetic_uk": "/həʊˈtel/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "旅馆",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "house",
+      "phonetic_us": "/haʊs/",
+      "phonetic_uk": "/haʊs/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "房屋;房子;住宅",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "hurt",
+      "phonetic_us": "/hɜːrt/",
+      "phonetic_uk": "/hɜːt/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "(使)受伤",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "ice cream",
+      "phonetic_us": "/ˌaɪs ˈkriːm/",
+      "phonetic_uk": "/ˌaɪs ˈkriːm/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "冰激凌",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "ice-skate",
+      "phonetic_us": "/ˈaɪs skeɪt/",
+      "phonetic_uk": "/ˈaɪs skeɪt/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "滑冰",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "idea",
+      "phonetic_us": "/aɪˈdiːə/",
+      "phonetic_uk": "/aɪˈdɪə/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "想法;主意",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "if",
+      "phonetic_us": "/ɪf/",
+      "phonetic_uk": "/ɪf/",
+      "definitions": [
+        {
+          "pos": "conj.",
+          "meaning": "如果",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "ill",
+      "phonetic_us": "/ɪl/",
+      "phonetic_uk": "/ɪl/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "有病;不舒服",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "in",
+      "phonetic_us": "/ɪn/",
+      "phonetic_uk": "/ɪn/",
+      "definitions": [
+        {
+          "pos": "prep.",
+          "meaning": "在……里",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "in front of",
+      "phonetic_us": "/ɪn frʌnt əv/",
+      "phonetic_uk": "/ɪn frʌnt ɒv/",
+      "definitions": [
+        {
+          "pos": "prep.",
+          "meaning": "在……前面",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "Internet",
+      "phonetic_us": "/ˈɪntərnet/",
+      "phonetic_uk": "/ˈɪntənet/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "互联网",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "jacket",
+      "phonetic_us": "/ˈdʒækɪt/",
+      "phonetic_uk": "/ˈdʒækɪt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "夹克衫",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "January",
+      "phonetic_us": "/ˈdʒænjueri/",
+      "phonetic_uk": "/ˈdʒænjuəri/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "一月",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "join",
+      "phonetic_us": "/dʒɔɪn/",
+      "phonetic_uk": "/dʒɔɪn/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "加入",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "juice",
+      "phonetic_us": "/dʒuːs/",
+      "phonetic_uk": "/dʒuːs/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "果汁",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "July",
+      "phonetic_us": "/dʒuˈlaɪ/",
+      "phonetic_uk": "/dʒuˈlaɪ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "七月",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "jumping",
+      "phonetic_us": "/ˈdʒʌmpɪŋ/",
+      "phonetic_uk": "/ˈdʒʌmpɪŋ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "(正在)跳",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "June",
+      "phonetic_us": "/dʒuːn/",
+      "phonetic_uk": "/dʒuːn/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "六月",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "keep",
+      "phonetic_us": "/kiːp/",
+      "phonetic_uk": "/kiːp/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "保持某种状态",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "keep to the right",
+      "phonetic_us": "/kiːp tuː ðə raɪt/",
+      "phonetic_uk": "/kiːp tuː ðə raɪt/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "靠右",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "keep your desk clean",
+      "phonetic_us": "/kiːp jʊr desk kliːn/",
+      "phonetic_uk": "/kiːp jɔː desk kliːn/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "保持你的课桌干净",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "key",
+      "phonetic_us": "/kiː/",
+      "phonetic_uk": "/kiː/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "钥匙",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "kilogram",
+      "phonetic_us": "/ˈkɪləɡræm/",
+      "phonetic_uk": "/ˈkɪləɡræm/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "千克;公斤",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "kind",
+      "phonetic_us": "/kaɪnd/",
+      "phonetic_uk": "/kaɪnd/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "体贴的;慈祥的;宽容的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "kitchen",
+      "phonetic_us": "/ˈkɪtʃɪn/",
+      "phonetic_uk": "/ˈkɪtʃɪn/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "厨房",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "kite",
+      "phonetic_us": "/kaɪt/",
+      "phonetic_uk": "/kaɪt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "风筝",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "knife",
+      "phonetic_us": "/naɪf/",
+      "phonetic_uk": "/naɪf/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "刀",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "Labour Day",
+      "phonetic_us": "/ˈleɪbər deɪ/",
+      "phonetic_uk": "/ˈleɪbə(r) deɪ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "劳动节",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "lake",
+      "phonetic_us": "/leɪk/",
+      "phonetic_uk": "/leɪk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "湖;湖泊",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "lamp",
+      "phonetic_us": "/læmp/",
+      "phonetic_uk": "/læmp/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "台灯",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "last",
+      "phonetic_us": "/læst/",
+      "phonetic_uk": "/lɑːst/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "最近的;上一个的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "laughed",
+      "phonetic_us": "/læft/",
+      "phonetic_uk": "/lɑːft/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "笑(laugh的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "left",
+      "phonetic_us": "/left/",
+      "phonetic_uk": "/left/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "左",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "leg",
+      "phonetic_us": "/leɡ/",
+      "phonetic_uk": "/leɡ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "腿",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "library",
+      "phonetic_us": "/ˈlaɪbreri/",
+      "phonetic_uk": "/ˈlaɪbrəri/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "图书馆",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "licked",
+      "phonetic_us": "/lɪkt/",
+      "phonetic_uk": "/lɪkt/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "舔(lick的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "light",
+      "phonetic_us": "/laɪt/",
+      "phonetic_uk": "/laɪt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "电灯",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "listening to music",
+      "phonetic_us": "/ˈlɪsnɪŋ tuː ˈmjuːzɪk/",
+      "phonetic_uk": "/ˈlɪsnɪŋ tuː ˈmjuːzɪk/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "(正在)听音乐",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "living room",
+      "phonetic_us": "/ˈlɪvɪŋ ruːm/",
+      "phonetic_uk": "/ˈlɪvɪŋ ruːm/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "客厅;起居室",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "long",
+      "phonetic_us": "/lɔːŋ/",
+      "phonetic_uk": "/lɒŋ/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "长的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "longer",
+      "phonetic_us": "/ˈlɔːŋɡər/",
+      "phonetic_uk": "/ˈlɒŋɡə(r)/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "更长的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "looked up",
+      "phonetic_us": "/lʊkt ʌp/",
+      "phonetic_uk": "/lʊkt ʌp/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "查阅(look up的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "loud",
+      "phonetic_us": "/laʊd/",
+      "phonetic_uk": "/laʊd/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "喧闹的;大声的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "lower",
+      "phonetic_us": "/ˈloʊər/",
+      "phonetic_uk": "/ˈləʊə(r)/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "更低地",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "lunch",
+      "phonetic_us": "/lʌntʃ/",
+      "phonetic_uk": "/lʌntʃ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "午餐;午饭",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "magazine",
+      "phonetic_us": "/ˈmæɡəziːn/",
+      "phonetic_uk": "/ˌmæɡəˈziːn/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "杂志",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "make a snowman",
+      "phonetic_us": "/meɪk ə ˈsnoʊmæn/",
+      "phonetic_uk": "/meɪk ə ˈsnəʊmæn/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "堆雪人",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "man",
+      "phonetic_us": "/mæn/",
+      "phonetic_uk": "/mæn/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "男人",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "map",
+      "phonetic_us": "/mæp/",
+      "phonetic_uk": "/mæp/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "地图",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "March",
+      "phonetic_us": "/mɑːrtʃ/",
+      "phonetic_uk": "/mɑːtʃ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "三月",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "maths book",
+      "phonetic_us": "/mæθs bʊk/",
+      "phonetic_uk": "/mæθs bʊk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "数学书",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "May",
+      "phonetic_us": "/meɪ/",
+      "phonetic_uk": "/meɪ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "五月",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "metre",
+      "phonetic_us": "/ˈmiːtər/",
+      "phonetic_uk": "/ˈmiːtə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "米",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "mice",
+      "phonetic_us": "/maɪs/",
+      "phonetic_uk": "/maɪs/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "老鼠(mouse的复数)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "milk",
+      "phonetic_us": "/mɪlk/",
+      "phonetic_uk": "/mɪlk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "牛奶",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "mine",
+      "phonetic_us": "/maɪn/",
+      "phonetic_uk": "/maɪn/",
+      "definitions": [
+        {
+          "pos": "pron.",
+          "meaning": "我的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "Monday",
+      "phonetic_us": "/ˈmʌndeɪ/",
+      "phonetic_uk": "/ˈmʌndeɪ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "星期一",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "monkey",
+      "phonetic_us": "/ˈmʌŋki/",
+      "phonetic_uk": "/ˈmʌŋki/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "猴子",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "more",
+      "phonetic_us": "/mɔːr/",
+      "phonetic_uk": "/mɔː(r)/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "更多的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "mother",
+      "phonetic_us": "/ˈmʌðər/",
+      "phonetic_uk": "/ˈmʌðə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "母亲;妈妈",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "mountain",
+      "phonetic_us": "/ˈmaʊntn/",
+      "phonetic_uk": "/ˈmaʊntən/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "高山;山岳",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "mouth",
+      "phonetic_us": "/maʊθ/",
+      "phonetic_uk": "/maʊθ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "嘴",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "mud",
+      "phonetic_us": "/mʌd/",
+      "phonetic_uk": "/mʌd/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "泥",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "mule",
+      "phonetic_us": "/mjuːl/",
+      "phonetic_uk": "/mjuːl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "骡子",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "mum",
+      "phonetic_us": "/mʌm/",
+      "phonetic_uk": "/mʌm/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "妈妈",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "museum",
+      "phonetic_us": "/mjuˈziːəm/",
+      "phonetic_uk": "/mjuˈziːəm/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "博物馆",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "music class",
+      "phonetic_us": "/ˈmjuːzɪk klæs/",
+      "phonetic_uk": "/ˈmjuːzɪk klɑːs/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "音乐课",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "music room",
+      "phonetic_us": "/ˈmjuːzɪk ruːm/",
+      "phonetic_uk": "/ˈmjuːzɪk ruːm/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "音乐教室",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "new",
+      "phonetic_us": "/nuː/",
+      "phonetic_uk": "/njuː/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "新的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "next to",
+      "phonetic_us": "/nekst tuː/",
+      "phonetic_uk": "/nekst tuː/",
+      "definitions": [
+        {
+          "pos": "prep.",
+          "meaning": "紧邻;在……近旁",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "next week",
+      "phonetic_us": "/nekst wiːk/",
+      "phonetic_uk": "/nekst wiːk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "下周",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "nice",
+      "phonetic_us": "/naɪs/",
+      "phonetic_uk": "/naɪs/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "好的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "nine",
+      "phonetic_us": "/naɪn/",
+      "phonetic_uk": "/naɪn/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "九",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "nineteen",
+      "phonetic_us": "/ˌnaɪnˈtiːn/",
+      "phonetic_uk": "/ˌnaɪnˈtiːn/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "十九",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "no",
+      "phonetic_us": "/noʊ/",
+      "phonetic_uk": "/nəʊ/",
+      "definitions": [
+        {
+          "pos": "adv.",
+          "meaning": "不",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "noodles",
+      "phonetic_us": "/ˈnuːdlz/",
+      "phonetic_uk": "/ˈnuːdlz/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "面条",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "nose",
+      "phonetic_us": "/noʊz/",
+      "phonetic_uk": "/nəʊz/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "鼻子",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "notebook",
+      "phonetic_us": "/ˈnoʊtbʊk/",
+      "phonetic_uk": "/ˈnəʊtbʊk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "笔记本",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "nothing",
+      "phonetic_us": "/ˈnʌθɪŋ/",
+      "phonetic_uk": "/ˈnʌθɪŋ/",
+      "definitions": [
+        {
+          "pos": "pron.",
+          "meaning": "没有什么",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "November",
+      "phonetic_us": "/noʊˈvembər/",
+      "phonetic_uk": "/nəʊˈvembə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "十一月",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "nurse",
+      "phonetic_us": "/nɜːrs/",
+      "phonetic_uk": "/nɜːs/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "护士",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "October",
+      "phonetic_us": "/ɑːkˈtoʊbər/",
+      "phonetic_uk": "/ɒkˈtəʊbə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "十月",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "off",
+      "phonetic_us": "/ɔːf/",
+      "phonetic_uk": "/ɒf/",
+      "definitions": [
+        {
+          "pos": "prep.",
+          "meaning": "从(某处)落下",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "OK",
+      "phonetic_us": "/ˌoʊ ˈkeɪ/",
+      "phonetic_uk": "/ˌəʊ ˈkeɪ/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "好;行",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "old",
+      "phonetic_us": "/oʊld/",
+      "phonetic_uk": "/əʊld/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "老的;年纪大的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "older",
+      "phonetic_us": "/ˈoʊldər/",
+      "phonetic_uk": "/ˈəʊldə(r)/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "更年长的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "on",
+      "phonetic_us": "/ɑːn/",
+      "phonetic_uk": "/ɒn/",
+      "definitions": [
+        {
+          "pos": "prep.",
+          "meaning": "在……上",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "on foot",
+      "phonetic_us": "/ɑːn fʊt/",
+      "phonetic_uk": "/ɒn fʊt/",
+      "definitions": [
+        {
+          "pos": "adv.",
+          "meaning": "步行",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "one",
+      "phonetic_us": "/wʌn/",
+      "phonetic_uk": "/wʌn/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "一",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "or",
+      "phonetic_us": "/ɔːr/",
+      "phonetic_uk": "/ɔː(r)/",
+      "definitions": [
+        {
+          "pos": "conj.",
+          "meaning": "或者",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "orange",
+      "phonetic_us": "/ˈɔːrɪndʒ/",
+      "phonetic_uk": "/ˈɒrɪndʒ/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "橙色的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "ours",
+      "phonetic_us": "/ˈaʊərz/",
+      "phonetic_uk": "/ˈaʊəz/",
+      "definitions": [
+        {
+          "pos": "pron.",
+          "meaning": "我们的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "panda",
+      "phonetic_us": "/ˈpændə/",
+      "phonetic_uk": "/ˈpændə/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "熊猫",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "pants",
+      "phonetic_us": "/pænts/",
+      "phonetic_uk": "/pænts/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "裤子",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "parents",
+      "phonetic_us": "/ˈperənts/",
+      "phonetic_uk": "/ˈpeərənts/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "父母",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "part",
+      "phonetic_us": "/pɑːrt/",
+      "phonetic_uk": "/pɑːt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "角色",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "PE class",
+      "phonetic_us": "/piː iː klæs/",
+      "phonetic_uk": "/piː iː klɑːs/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "体育课",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "pear",
+      "phonetic_us": "/per/",
+      "phonetic_uk": "/peə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "梨",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "pen",
+      "phonetic_us": "/pen/",
+      "phonetic_uk": "/pen/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "钢笔",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "pen pal",
+      "phonetic_us": "/pen pæl/",
+      "phonetic_uk": "/pen pæl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "笔友",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "pencil",
+      "phonetic_us": "/ˈpensl/",
+      "phonetic_uk": "/ˈpensl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "铅笔",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "pencil box",
+      "phonetic_us": "/ˈpensl bɑːks/",
+      "phonetic_uk": "/ˈpensl bɒks/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "铅笔盒",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "phone",
+      "phonetic_us": "/foʊn/",
+      "phonetic_uk": "/fəʊn/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "电话",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "photo",
+      "phonetic_us": "/ˈfoʊtoʊ/",
+      "phonetic_uk": "/ˈfəʊtəʊ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "照片;相片",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "pick",
+      "phonetic_us": "/pɪk/",
+      "phonetic_uk": "/pɪk/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "摘;采集",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "pick apples",
+      "phonetic_us": "/pɪk ˈæplz/",
+      "phonetic_uk": "/pɪk ˈæplz/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "摘苹果",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "picnic",
+      "phonetic_us": "/ˈpɪknɪk/",
+      "phonetic_uk": "/ˈpɪknɪk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "野餐",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "picture",
+      "phonetic_us": "/ˈpɪktʃər/",
+      "phonetic_uk": "/ˈpɪktʃə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "图画",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "pig",
+      "phonetic_us": "/pɪɡ/",
+      "phonetic_uk": "/pɪɡ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "猪",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "pilot",
+      "phonetic_us": "/ˈpaɪlət/",
+      "phonetic_uk": "/ˈpaɪlət/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "飞行员",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "plane",
+      "phonetic_us": "/pleɪn/",
+      "phonetic_uk": "/pleɪn/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "飞机",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "plant",
+      "phonetic_us": "/plænt/",
+      "phonetic_uk": "/plɑːnt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "植物",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "plate",
+      "phonetic_us": "/pleɪt/",
+      "phonetic_uk": "/pleɪt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "盘子",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "play basketball",
+      "phonetic_us": "/pleɪ ˈbæskɪtbɔːl/",
+      "phonetic_uk": "/pleɪ ˈbɑːskɪtbɔːl/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "打篮球",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "play football",
+      "phonetic_us": "/pleɪ ˈfʊtbɔːl/",
+      "phonetic_uk": "/pleɪ ˈfʊtbɔːl/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "踢足球",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "play ping-pong",
+      "phonetic_us": "/pleɪ ˈpɪŋ pɑːŋ/",
+      "phonetic_uk": "/pleɪ ˈpɪŋ pɒŋ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "打乒乓球",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "play sports",
+      "phonetic_us": "/pleɪ spɔːrts/",
+      "phonetic_uk": "/pleɪ spɔːts/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "进行体育运动",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "play the pipa",
+      "phonetic_us": "/pleɪ ðə ˈpiːpɑː/",
+      "phonetic_uk": "/pleɪ ðə ˈpiːpɑː/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "弹琵琶",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "playground",
+      "phonetic_us": "/ˈpleɪɡraʊnd/",
+      "phonetic_uk": "/ˈpleɪɡraʊnd/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "操场",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "playing",
+      "phonetic_us": "/ˈpleɪɪŋ/",
+      "phonetic_uk": "/ˈpleɪɪŋ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "(正在)玩耍",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "police officer",
+      "phonetic_us": "/pəˈliːs ˈɔːfɪsər/",
+      "phonetic_uk": "/pəˈliːs ˈɒfɪsə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "警察",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "polite",
+      "phonetic_us": "/pəˈlaɪt/",
+      "phonetic_uk": "/pəˈlaɪt/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "有礼貌的;客气的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "post office",
+      "phonetic_us": "/poʊst ˈɔːfɪs/",
+      "phonetic_uk": "/pəʊst ˈɒfɪs/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "邮局",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "postcard",
+      "phonetic_us": "/ˈpoʊstkɑːrd/",
+      "phonetic_uk": "/ˈpəʊstkɑːd/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "明信片",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "postman",
+      "phonetic_us": "/ˈpoʊstmən/",
+      "phonetic_uk": "/ˈpəʊstmən/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "邮递员",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "potato",
+      "phonetic_us": "/pəˈteɪtoʊ/",
+      "phonetic_uk": "/pəˈteɪtəʊ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "马铃薯;土豆",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "pretty",
+      "phonetic_us": "/ˈprɪti/",
+      "phonetic_uk": "/ˈprɪti/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "美观的;精致的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "pull",
+      "phonetic_us": "/pʊl/",
+      "phonetic_uk": "/pʊl/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "拉;拽",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "pupil",
+      "phonetic_us": "/ˈpjuːpl/",
+      "phonetic_uk": "/ˈpjuːpl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "小学生",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "puzzle",
+      "phonetic_us": "/ˈpʌzl/",
+      "phonetic_uk": "/ˈpʌzl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "谜",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "quickly",
+      "phonetic_us": "/ˈkwɪkli/",
+      "phonetic_uk": "/ˈkwɪkli/",
+      "definitions": [
+        {
+          "pos": "adv.",
+          "meaning": "迅速地",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "quiet",
+      "phonetic_us": "/ˈkwaɪət/",
+      "phonetic_uk": "/ˈkwaɪət/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "安静的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "race",
+      "phonetic_us": "/reɪs/",
+      "phonetic_uk": "/reɪs/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "赛跑",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "rainy",
+      "phonetic_us": "/ˈreɪni/",
+      "phonetic_uk": "/ˈreɪni/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "阴雨的;多雨的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "read",
+      "phonetic_us": "/red/",
+      "phonetic_uk": "/red/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "读(read的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "read books",
+      "phonetic_us": "/riːd bʊks/",
+      "phonetic_uk": "/riːd bʊks/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "看书",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "reading a book",
+      "phonetic_us": "/ˈriːdɪŋ ə bʊk/",
+      "phonetic_uk": "/ˈriːdɪŋ ə bʊk/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "(正在)看书",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "red",
+      "phonetic_us": "/red/",
+      "phonetic_uk": "/red/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "红色的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "reporter",
+      "phonetic_us": "/rɪˈpɔːrtər/",
+      "phonetic_uk": "/rɪˈpɔːtə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "记者",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "rice",
+      "phonetic_us": "/raɪs/",
+      "phonetic_uk": "/raɪs/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "米饭",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "right",
+      "phonetic_us": "/raɪt/",
+      "phonetic_uk": "/raɪt/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "正确的;对的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "river",
+      "phonetic_us": "/ˈrɪvər/",
+      "phonetic_uk": "/ˈrɪvə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "河;江",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "rode",
+      "phonetic_us": "/roʊd/",
+      "phonetic_uk": "/rəʊd/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "骑(ride的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "rode a bike",
+      "phonetic_us": "/roʊd ə baɪk/",
+      "phonetic_uk": "/rəʊd ə baɪk/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "骑自行车",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "rode a horse",
+      "phonetic_us": "/roʊd ə hɔːrs/",
+      "phonetic_uk": "/rəʊd ə hɔːs/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "骑马",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "ruler",
+      "phonetic_us": "/ˈruːlər/",
+      "phonetic_uk": "/ˈruːlə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "尺子",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "sad",
+      "phonetic_us": "/sæd/",
+      "phonetic_uk": "/sæd/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "难过的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "salad",
+      "phonetic_us": "/ˈsæləd/",
+      "phonetic_uk": "/ˈsæləd/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "蔬菜沙拉;混合沙拉",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "sandwich",
+      "phonetic_us": "/ˈsænwɪtʃ/",
+      "phonetic_uk": "/ˈsænwɪtʃ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "三明治",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "Saturday",
+      "phonetic_us": "/ˈsætərdeɪ/",
+      "phonetic_uk": "/ˈsætədeɪ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "星期六",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "saw",
+      "phonetic_us": "/sɔː/",
+      "phonetic_uk": "/sɔː/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "看见(see的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "scarf",
+      "phonetic_us": "/skɑːrf/",
+      "phonetic_uk": "/skɑːf/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "围巾;披巾",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "school",
+      "phonetic_us": "/skuːl/",
+      "phonetic_uk": "/skuːl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "学校",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "schoolbag",
+      "phonetic_us": "/ˈskuːlbæɡ/",
+      "phonetic_uk": "/ˈskuːlbæɡ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "书包",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "science",
+      "phonetic_us": "/ˈsaɪəns/",
+      "phonetic_uk": "/ˈsaɪəns/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "科学",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "scientist",
+      "phonetic_us": "/ˈsaɪəntɪst/",
+      "phonetic_uk": "/ˈsaɪəntɪst/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "科学家",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "sea",
+      "phonetic_us": "/siː/",
+      "phonetic_uk": "/siː/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "大海",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "season",
+      "phonetic_us": "/ˈsiːzn/",
+      "phonetic_uk": "/ˈsiːzn/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "季节",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "second",
+      "phonetic_us": "/ˈsekənd/",
+      "phonetic_uk": "/ˈsekənd/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "第二(的)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "second floor",
+      "phonetic_us": "/ˈsekənd flɔːr/",
+      "phonetic_uk": "/ˈsekənd flɔː(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "二楼",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "secretary",
+      "phonetic_us": "/ˈsekrəteri/",
+      "phonetic_uk": "/ˈsekrətri/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "秘书",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "see a doctor",
+      "phonetic_us": "/siː ə ˈdɑːktər/",
+      "phonetic_uk": "/siː ə ˈdɒktə(r)/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "看病",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "see a film",
+      "phonetic_us": "/siː ə fɪlm/",
+      "phonetic_uk": "/siː ə fɪlm/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "看电影",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "September",
+      "phonetic_us": "/sepˈtembər/",
+      "phonetic_uk": "/sepˈtembə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "九月",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "seven",
+      "phonetic_us": "/ˈsevn/",
+      "phonetic_uk": "/ˈsevn/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "七",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "seventeen",
+      "phonetic_us": "/ˌsevnˈtiːn/",
+      "phonetic_uk": "/ˌsevnˈtiːn/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "十七",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "shadow",
+      "phonetic_us": "/ˈʃædoʊ/",
+      "phonetic_uk": "/ˈʃædəʊ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "阴影;影子",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "shall",
+      "phonetic_us": "/ʃæl/",
+      "phonetic_uk": "/ʃæl/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "表示征求意见",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "share",
+      "phonetic_us": "/ʃer/",
+      "phonetic_uk": "/ʃeə(r)/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "分享",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "sheep",
+      "phonetic_us": "/ʃiːp/",
+      "phonetic_uk": "/ʃiːp/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "羊;绵羊",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "ship",
+      "phonetic_us": "/ʃɪp/",
+      "phonetic_uk": "/ʃɪp/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "(大)船",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "shirt",
+      "phonetic_us": "/ʃɜːrt/",
+      "phonetic_uk": "/ʃɜːt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "衬衫",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "shoe",
+      "phonetic_us": "/ʃuː/",
+      "phonetic_uk": "/ʃuː/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "鞋",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "short",
+      "phonetic_us": "/ʃɔːrt/",
+      "phonetic_uk": "/ʃɔːt/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "矮的;短的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "shorter",
+      "phonetic_us": "/ˈʃɔːrtər/",
+      "phonetic_uk": "/ˈʃɔːtə(r)/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "更矮的;更短的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "shorts",
+      "phonetic_us": "/ʃɔːrts/",
+      "phonetic_uk": "/ʃɔːts/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "短裤",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "should",
+      "phonetic_us": "/ʃʊd/",
+      "phonetic_uk": "/ʃʊd/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "应该",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "show",
+      "phonetic_us": "/ʃoʊ/",
+      "phonetic_uk": "/ʃəʊ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "演出",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "shy",
+      "phonetic_us": "/ʃaɪ/",
+      "phonetic_uk": "/ʃaɪ/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "羞怯的;腼腆的;怕生的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "sing",
+      "phonetic_us": "/sɪŋ/",
+      "phonetic_uk": "/sɪŋ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "唱;唱歌",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "sing English songs",
+      "phonetic_us": "/sɪŋ ˈɪŋɡlɪʃ sɔːŋz/",
+      "phonetic_uk": "/sɪŋ ˈɪŋɡlɪʃ sɒŋz/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "唱英文歌曲",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "sister",
+      "phonetic_us": "/ˈsɪstər/",
+      "phonetic_uk": "/ˈsɪstə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "姐;妹",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "sit",
+      "phonetic_us": "/sɪt/",
+      "phonetic_uk": "/sɪt/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "坐",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "six",
+      "phonetic_us": "/sɪks/",
+      "phonetic_uk": "/sɪks/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "六",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "sixteen",
+      "phonetic_us": "/ˌsɪksˈtiːn/",
+      "phonetic_uk": "/ˌsɪksˈtiːn/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "十六",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "skirt",
+      "phonetic_us": "/skɜːrt/",
+      "phonetic_uk": "/skɜːt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "女裙",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "sleeping",
+      "phonetic_us": "/ˈsliːpɪŋ/",
+      "phonetic_uk": "/ˈsliːpɪŋ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "(正在)睡觉",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "slept",
+      "phonetic_us": "/slept/",
+      "phonetic_uk": "/slept/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "睡觉(sleep的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "slow",
+      "phonetic_us": "/sloʊ/",
+      "phonetic_uk": "/sləʊ/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "慢的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "slow down",
+      "phonetic_us": "/sloʊ daʊn/",
+      "phonetic_uk": "/sləʊ daʊn/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "慢下来",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "small",
+      "phonetic_us": "/smɔːl/",
+      "phonetic_uk": "/smɔːl/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "小的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "smaller",
+      "phonetic_us": "/ˈsmɔːlər/",
+      "phonetic_uk": "/ˈsmɔːlə(r)/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "更小的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "smarter",
+      "phonetic_us": "/ˈsmɑːrtər/",
+      "phonetic_uk": "/ˈsmɑːtə(r)/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "更聪明的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "snowman",
+      "phonetic_us": "/ˈsnoʊmæn/",
+      "phonetic_uk": "/ˈsnəʊmæn/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "雪人",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "snowy",
+      "phonetic_us": "/ˈsnoʊi/",
+      "phonetic_uk": "/ˈsnəʊi/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "下雪(多)的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "sock",
+      "phonetic_us": "/sɑːk/",
+      "phonetic_uk": "/sɒk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "短袜",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "sofa",
+      "phonetic_us": "/ˈsoʊfə/",
+      "phonetic_uk": "/ˈsəʊfə/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "长沙发",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "song",
+      "phonetic_us": "/sɔːŋ/",
+      "phonetic_uk": "/sɒŋ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "歌曲",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "soup",
+      "phonetic_us": "/suːp/",
+      "phonetic_uk": "/suːp/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "汤",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "speak English",
+      "phonetic_us": "/spiːk ˈɪŋɡlɪʃ/",
+      "phonetic_uk": "/spiːk ˈɪŋɡlɪʃ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "说英语",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "spoon",
+      "phonetic_us": "/spuːn/",
+      "phonetic_uk": "/spuːn/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "勺",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "spring",
+      "phonetic_us": "/sprɪŋ/",
+      "phonetic_uk": "/sprɪŋ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "春天",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "star",
+      "phonetic_us": "/stɑːr/",
+      "phonetic_uk": "/stɑː(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "星",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "stay",
+      "phonetic_us": "/steɪ/",
+      "phonetic_uk": "/steɪ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "保持",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "stayed",
+      "phonetic_us": "/steɪd/",
+      "phonetic_uk": "/steɪd/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "停留(stay的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "stop",
+      "phonetic_us": "/stɑːp/",
+      "phonetic_uk": "/stɒp/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "停下",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "storybook",
+      "phonetic_us": "/ˈstɔːribʊk/",
+      "phonetic_uk": "/ˈstɔːribʊk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "故事书",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "straight",
+      "phonetic_us": "/streɪt/",
+      "phonetic_uk": "/streɪt/",
+      "definitions": [
+        {
+          "pos": "adv.",
+          "meaning": "笔直地",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "strawberry",
+      "phonetic_us": "/ˈstrɔːberi/",
+      "phonetic_uk": "/ˈstrɔːbəri/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "草莓",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "strict",
+      "phonetic_us": "/strɪkt/",
+      "phonetic_uk": "/strɪkt/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "要求严格的;严厉的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "strong",
+      "phonetic_us": "/strɔːŋ/",
+      "phonetic_uk": "/strɒŋ/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "强壮的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "stronger",
+      "phonetic_us": "/ˈstrɔːŋɡər/",
+      "phonetic_uk": "/ˈstrɒŋɡə(r)/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "更强壮的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "stuck",
+      "phonetic_us": "/stʌk/",
+      "phonetic_uk": "/stʌk/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "陷住;无法移动",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "student",
+      "phonetic_us": "/ˈstuːdnt/",
+      "phonetic_uk": "/ˈstjuːdnt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "学生",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "studies",
+      "phonetic_us": "/ˈstʌdiz/",
+      "phonetic_uk": "/ˈstʌdiz/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "学习(study的第三人称单数形式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "study",
+      "phonetic_us": "/ˈstʌdi/",
+      "phonetic_uk": "/ˈstʌdi/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "书房",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "subway",
+      "phonetic_us": "/ˈsʌbweɪ/",
+      "phonetic_uk": "/ˈsʌbweɪ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "地铁",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "summer",
+      "phonetic_us": "/ˈsʌmər/",
+      "phonetic_uk": "/ˈsʌmə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "夏天",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "Sunday",
+      "phonetic_us": "/ˈsʌndeɪ/",
+      "phonetic_uk": "/ˈsʌndeɪ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "星期日",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "sunglasses",
+      "phonetic_us": "/ˈsʌnɡlæsɪz/",
+      "phonetic_uk": "/ˈsʌnɡlɑːsɪz/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "太阳镜",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "sunny",
+      "phonetic_us": "/ˈsʌni/",
+      "phonetic_uk": "/ˈsʌni/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "阳光充足的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "supermarket",
+      "phonetic_us": "/ˈsuːpərmɑːrkɪt/",
+      "phonetic_uk": "/ˈsuːpəmɑːkɪt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "超市",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "sweater",
+      "phonetic_us": "/ˈswetər/",
+      "phonetic_uk": "/ˈswetə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "毛衣",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "sweet",
+      "phonetic_us": "/swiːt/",
+      "phonetic_uk": "/swiːt/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "含糖的;甜的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "swim",
+      "phonetic_us": "/swɪm/",
+      "phonetic_uk": "/swɪm/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "游泳",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "table",
+      "phonetic_us": "/ˈteɪbl/",
+      "phonetic_uk": "/ˈteɪbl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "桌子",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "tail",
+      "phonetic_us": "/teɪl/",
+      "phonetic_uk": "/teɪl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "尾巴",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "take",
+      "phonetic_us": "/teɪk/",
+      "phonetic_uk": "/teɪk/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "学习;上(课)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "take a dancing class",
+      "phonetic_us": "/teɪk ə ˈdænsɪŋ klæs/",
+      "phonetic_uk": "/teɪk ə ˈdɑːnsɪŋ klɑːs/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "上舞蹈课",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "take a deep breath",
+      "phonetic_us": "/teɪk ə diːp breθ/",
+      "phonetic_uk": "/teɪk ə diːp breθ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "深深吸一口气",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "take a trip",
+      "phonetic_us": "/teɪk ə trɪp/",
+      "phonetic_uk": "/teɪk ə trɪp/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "去旅行",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "take turns",
+      "phonetic_us": "/teɪk tɜːrnz/",
+      "phonetic_uk": "/teɪk tɜːnz/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "按顺序来",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "talk quietly",
+      "phonetic_us": "/tɔːk ˈkwaɪətli/",
+      "phonetic_uk": "/tɔːk ˈkwaɪətli/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "小声讲话",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "tall",
+      "phonetic_us": "/tɔːl/",
+      "phonetic_uk": "/tɔːl/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "高的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "taller",
+      "phonetic_us": "/ˈtɔːlər/",
+      "phonetic_uk": "/ˈtɔːlə(r)/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "更高的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "taxi",
+      "phonetic_us": "/ˈtæksi/",
+      "phonetic_uk": "/ˈtæksi/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "出租汽车",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "tea",
+      "phonetic_us": "/tiː/",
+      "phonetic_uk": "/tiː/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "茶;茶水",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "teacher",
+      "phonetic_us": "/ˈtiːtʃər/",
+      "phonetic_uk": "/ˈtiːtʃə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "教师",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "teacher's desk",
+      "phonetic_us": "/ˈtiːtʃərz desk/",
+      "phonetic_uk": "/ˈtiːtʃəz desk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "讲台",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "teachers' office",
+      "phonetic_us": "/ˈtiːtʃərz ˈɔːfɪs/",
+      "phonetic_uk": "/ˈtiːtʃəz ˈɒfɪs/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "教师办公室",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "ten",
+      "phonetic_us": "/ten/",
+      "phonetic_uk": "/ten/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "十",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "than",
+      "phonetic_us": "/ðæn/",
+      "phonetic_uk": "/ðæn/",
+      "definitions": [
+        {
+          "pos": "conj.",
+          "meaning": "比",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "theirs",
+      "phonetic_us": "/ðerz/",
+      "phonetic_uk": "/ðeəz/",
+      "definitions": [
+        {
+          "pos": "pron.",
+          "meaning": "他们的;她们的;它们的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "these",
+      "phonetic_us": "/ðiːz/",
+      "phonetic_uk": "/ðiːz/",
+      "definitions": [
+        {
+          "pos": "pron.",
+          "meaning": "这些",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "thin",
+      "phonetic_us": "/θɪn/",
+      "phonetic_uk": "/θɪn/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "瘦的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "thinner",
+      "phonetic_us": "/ˈθɪnər/",
+      "phonetic_uk": "/ˈθɪnə(r)/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "更瘦的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "third",
+      "phonetic_us": "/θɜːrd/",
+      "phonetic_uk": "/θɜːd/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "第三(的)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "thirteen",
+      "phonetic_us": "/ˌθɜːrˈtiːn/",
+      "phonetic_uk": "/ˌθɜːˈtiːn/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "十三",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "thirtieth",
+      "phonetic_us": "/ˈθɜːrtiəθ/",
+      "phonetic_uk": "/ˈθɜːtiəθ/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "第三十(的)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "those",
+      "phonetic_us": "/ðoʊz/",
+      "phonetic_uk": "/ðəʊz/",
+      "definitions": [
+        {
+          "pos": "pron.",
+          "meaning": "那些",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "thought",
+      "phonetic_us": "/θɔːt/",
+      "phonetic_uk": "/θɔːt/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "想(think的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "three",
+      "phonetic_us": "/θriː/",
+      "phonetic_uk": "/θriː/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "三",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "Thursday",
+      "phonetic_us": "/ˈθɜːrzdeɪ/",
+      "phonetic_uk": "/ˈθɜːzdeɪ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "星期四",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "tiger",
+      "phonetic_us": "/ˈtaɪɡər/",
+      "phonetic_uk": "/ˈtaɪɡə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "老虎",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "till",
+      "phonetic_us": "/tɪl/",
+      "phonetic_uk": "/tɪl/",
+      "definitions": [
+        {
+          "pos": "conj.",
+          "meaning": "直到",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "today",
+      "phonetic_us": "/təˈdeɪ/",
+      "phonetic_uk": "/təˈdeɪ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "今天",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "tomato",
+      "phonetic_us": "/təˈmeɪtoʊ/",
+      "phonetic_uk": "/təˈmɑːtəʊ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "西红柿;番茄",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "tomorrow",
+      "phonetic_us": "/təˈmɑːroʊ/",
+      "phonetic_uk": "/təˈmɒrəʊ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "明天",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "tonight",
+      "phonetic_us": "/təˈnaɪt/",
+      "phonetic_uk": "/təˈnaɪt/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "在今晚",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "took",
+      "phonetic_us": "/tʊk/",
+      "phonetic_uk": "/tʊk/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "拍照(take的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "took pictures",
+      "phonetic_us": "/tʊk ˈpɪktʃərz/",
+      "phonetic_uk": "/tʊk ˈpɪktʃəz/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "照相",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "toy",
+      "phonetic_us": "/tɔɪ/",
+      "phonetic_uk": "/tɔɪ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "玩具",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "train",
+      "phonetic_us": "/treɪn/",
+      "phonetic_uk": "/treɪn/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "火车",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "tree",
+      "phonetic_us": "/triː/",
+      "phonetic_uk": "/triː/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "树;树木;乔木",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "trip",
+      "phonetic_us": "/trɪp/",
+      "phonetic_uk": "/trɪp/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "旅行",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "Tuesday",
+      "phonetic_us": "/ˈtuːzdeɪ/",
+      "phonetic_uk": "/ˈtjuːzdeɪ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "星期二",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "turn",
+      "phonetic_us": "/tɜːrn/",
+      "phonetic_uk": "/tɜːn/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "顺序",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "Turpan",
+      "phonetic_us": "/tʊrˈpæn/",
+      "phonetic_uk": "/tʊəˈpæn/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "吐鲁番",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "twelfth",
+      "phonetic_us": "/twelfθ/",
+      "phonetic_uk": "/twelfθ/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "第十二(的)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "twelve",
+      "phonetic_us": "/twelv/",
+      "phonetic_uk": "/twelv/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "十二",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "twentieth",
+      "phonetic_us": "/ˈtwentiəθ/",
+      "phonetic_uk": "/ˈtwentiəθ/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "第二十(的)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "twenty",
+      "phonetic_us": "/ˈtwenti/",
+      "phonetic_uk": "/ˈtwenti/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "二十",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "twenty-first",
+      "phonetic_us": "/ˌtwenti ˈfɜːrst/",
+      "phonetic_uk": "/ˌtwenti ˈfɜːst/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "第二十一(的)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "twenty-third",
+      "phonetic_us": "/ˌtwenti ˈθɜːrd/",
+      "phonetic_uk": "/ˌtwenti ˈθɜːd/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "第二十三(的)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "two",
+      "phonetic_us": "/tuː/",
+      "phonetic_uk": "/tuː/",
+      "definitions": [
+        {
+          "pos": "num.",
+          "meaning": "二",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "type",
+      "phonetic_us": "/taɪp/",
+      "phonetic_uk": "/taɪp/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "打字",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "UK",
+      "phonetic_us": "/ˌjuː ˈkeɪ/",
+      "phonetic_uk": "/ˌjuː ˈkeɪ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "英国",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "umbrella",
+      "phonetic_us": "/ʌmˈbrelə/",
+      "phonetic_uk": "/ʌmˈbrelə/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "伞;雨伞",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "uncle",
+      "phonetic_us": "/ˈʌŋkl/",
+      "phonetic_uk": "/ˈʌŋkl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "舅父;叔父;伯父;姑父;姨夫",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "under",
+      "phonetic_us": "/ˈʌndər/",
+      "phonetic_uk": "/ˈʌndə(r)/",
+      "definitions": [
+        {
+          "pos": "prep.",
+          "meaning": "在……下面",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "university",
+      "phonetic_us": "/ˌjuːnɪˈvɜːrsəti/",
+      "phonetic_uk": "/ˌjuːnɪˈvɜːsəti/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "大学",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "USA",
+      "phonetic_us": "/ˌjuː es ˈeɪ/",
+      "phonetic_uk": "/ˌjuː es ˈeɪ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "美国",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "use",
+      "phonetic_us": "/juːz/",
+      "phonetic_uk": "/juːz/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "使用",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "vegetable",
+      "phonetic_us": "/ˈvedʒtəbl/",
+      "phonetic_uk": "/ˈvedʒtəbl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "蔬菜",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "village",
+      "phonetic_us": "/ˈvɪlɪdʒ/",
+      "phonetic_uk": "/ˈvɪlɪdʒ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "村庄;村镇",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "visit",
+      "phonetic_us": "/ˈvɪzɪt/",
+      "phonetic_uk": "/ˈvɪzɪt/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "拜访",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "wall",
+      "phonetic_us": "/wɔːl/",
+      "phonetic_uk": "/wɔːl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "墙壁",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "warm",
+      "phonetic_us": "/wɔːrm/",
+      "phonetic_uk": "/wɔːm/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "温暖的;暖和的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "wash",
+      "phonetic_us": "/wɑːʃ/",
+      "phonetic_uk": "/wɒʃ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "洗",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "wash my clothes",
+      "phonetic_us": "/wɑːʃ maɪ kloʊðz/",
+      "phonetic_uk": "/wɒʃ maɪ kləʊðz/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "洗我的衣服",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "washed",
+      "phonetic_us": "/wɑːʃt/",
+      "phonetic_uk": "/wɒʃt/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "洗(wash的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "watch TV",
+      "phonetic_us": "/wɑːtʃ ˌtiː ˈviː/",
+      "phonetic_uk": "/wɒtʃ ˌtiː ˈviː/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "看电视",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "watched",
+      "phonetic_us": "/wɑːtʃt/",
+      "phonetic_uk": "/wɒtʃt/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "看(watch的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "water",
+      "phonetic_us": "/ˈwɔːtər/",
+      "phonetic_uk": "/ˈwɔːtə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "水",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "water bottle",
+      "phonetic_us": "/ˈwɔːtər ˈbɑːtl/",
+      "phonetic_uk": "/ˈwɔːtə(r) ˈbɒtl/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "水瓶",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "watermelon",
+      "phonetic_us": "/ˈwɔːtərmelən/",
+      "phonetic_uk": "/ˈwɔːtəmelən/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "西瓜",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "wear",
+      "phonetic_us": "/wer/",
+      "phonetic_uk": "/weə(r)/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "穿",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "Wednesday",
+      "phonetic_us": "/ˈwenzdeɪ/",
+      "phonetic_uk": "/ˈwenzdeɪ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "星期三",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "weekend",
+      "phonetic_us": "/ˈwiːkend/",
+      "phonetic_uk": "/ˌwiːkˈend/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "周末",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "well",
+      "phonetic_us": "/wel/",
+      "phonetic_uk": "/wel/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "健康;身体好",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "went",
+      "phonetic_us": "/went/",
+      "phonetic_uk": "/went/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "去(go的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "went camping",
+      "phonetic_us": "/went ˈkæmpɪŋ/",
+      "phonetic_uk": "/went ˈkæmpɪŋ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "去野营",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "went fishing",
+      "phonetic_us": "/went ˈfɪʃɪŋ/",
+      "phonetic_uk": "/went ˈfɪʃɪŋ/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "去钓鱼",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "white",
+      "phonetic_us": "/waɪt/",
+      "phonetic_uk": "/waɪt/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "白色的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "window",
+      "phonetic_us": "/ˈwɪndoʊ/",
+      "phonetic_uk": "/ˈwɪndəʊ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "窗户",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "windy",
+      "phonetic_us": "/ˈwɪndi/",
+      "phonetic_uk": "/ˈwɪndi/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "多风的;风大的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "winter",
+      "phonetic_us": "/ˈwɪntər/",
+      "phonetic_uk": "/ˈwɪntə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "冬天",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "woke",
+      "phonetic_us": "/woʊk/",
+      "phonetic_uk": "/wəʊk/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "醒(wake的过去式)",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "woman",
+      "phonetic_us": "/ˈwʊmən/",
+      "phonetic_uk": "/ˈwʊmən/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "女人",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "word book",
+      "phonetic_us": "/wɜːrd bʊk/",
+      "phonetic_uk": "/wɜːd bʊk/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "单词书",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "worker",
+      "phonetic_us": "/ˈwɜːrkər/",
+      "phonetic_uk": "/ˈwɜːkə(r)/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "工人",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "worried",
+      "phonetic_us": "/ˈwɜːrid/",
+      "phonetic_uk": "/ˈwʌrid/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "担心的;发愁的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "worry",
+      "phonetic_us": "/ˈwɜːri/",
+      "phonetic_uk": "/ˈwʌri/",
+      "definitions": [
+        {
+          "pos": "v.",
+          "meaning": "担心;担忧",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "wrong",
+      "phonetic_us": "/rɔːŋ/",
+      "phonetic_uk": "/rɒŋ/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "有毛病",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "yellow",
+      "phonetic_us": "/ˈjeloʊ/",
+      "phonetic_uk": "/ˈjeləʊ/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "黄色的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "yesterday",
+      "phonetic_us": "/ˈjestərdeɪ/",
+      "phonetic_uk": "/ˈjestədeɪ/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "昨天",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "young",
+      "phonetic_us": "/jʌŋ/",
+      "phonetic_uk": "/jʌŋ/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "年轻的;岁数不大的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "younger",
+      "phonetic_us": "/ˈjʌŋɡər/",
+      "phonetic_uk": "/ˈjʌŋɡə(r)/",
+      "definitions": [
+        {
+          "pos": "adj.",
+          "meaning": "更年轻的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "your",
+      "phonetic_us": "/jʊr/",
+      "phonetic_uk": "/jɔː(r)/",
+      "definitions": [
+        {
+          "pos": "pron.",
+          "meaning": "你的;你们的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "yours",
+      "phonetic_us": "/jʊrz/",
+      "phonetic_uk": "/jɔːz/",
+      "definitions": [
+        {
+          "pos": "pron.",
+          "meaning": "你(们)的",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "word": "zoo",
+      "phonetic_us": "/zuː/",
+      "phonetic_uk": "/zuː/",
+      "definitions": [
+        {
+          "pos": "n.",
+          "meaning": "动物园",
+          "examples": []
+        }
+      ]
+    }
+  ]
+}
