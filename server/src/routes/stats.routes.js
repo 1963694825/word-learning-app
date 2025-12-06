@@ -8,5 +8,6 @@ router.use(authMiddleware);
 
 router.get('/overview', statsController.getOverview);
 router.get('/book/:bookId', statsController.getBookStats);
+router.get('/calendar', statsController.getCalendar);
 
 module.exports = router;

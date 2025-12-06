@@ -15,6 +15,24 @@
       <text class="nickname">{{userInfo.nickname || '微信用户'}}</text>
     </view>
 
+    <!-- 学习统计 -->
+    <view class="stats-card">
+      <view class="stats-grid">
+        <view class="stat-item">
+          <text class="stat-value">{{stats.todayWords || 0}}</text>
+          <text class="stat-label">今日学习</text>
+        </view>
+        <view class="stat-item">
+          <text class="stat-value">{{stats.totalWords || 0}}</text>
+          <text class="stat-label">累计单词</text>
+        </view>
+        <view class="stat-item">
+          <text class="stat-value">{{stats.continuousDays || 0}}</text>
+          <text class="stat-label">连续天数</text>
+        </view>
+      </view>
+    </view>
+
     <!-- 学习数据 -->
     <view class="data-card">
       <view class="data-item">

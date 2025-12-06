@@ -73,7 +73,72 @@ class LearnService {
             });
         }
 
+        // 更新用户的打卡天数
+        await this.updateUserLearnDays(userId);
+
         return record;
+    }
+
+    // 更新用户的学习天数和连续天数
+    async updateUserLearnDays(userId) {
+        const user = await User.findByPk(userId);
+        if (!user) return;
+
+        // 获取今天的开始时间
+        const todayStart = new Date();
+        todayStart.setHours(0, 0, 0, 0);
+
+        // 检查今天是否有学习记录
+        const todayRecords = await LearnRecord.count({
+            where: {
+                user_id: userId,
+                last_review_time: {
+                    [Op.gte]: todayStart
+                }
+            }
+        });
+
+        if (todayRecords === 0) return; // 今天没有学习,不更新
+
+        // 获取所有学习过的日期(去重)
+        const allRecords = await LearnRecord.findAll({
+            where: { user_id: userId },
+            attributes: ['last_review_time'],
+            raw: true
+        });
+
+        // 统计不同的学习日期
+        const learnDates = new Set();
+        allRecords.forEach(record => {
+            const date = new Date(record.last_review_time);
+            const dateStr = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+            learnDates.add(dateStr);
+        });
+
+        const totalLearnDays = learnDates.size;
+
+        // 计算连续天数
+        let continuousDays = 0;
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+
+        for (let i = 0; i < 365; i++) {
+            const checkDate = new Date(today);
+            checkDate.setDate(checkDate.getDate() - i);
+            const dateStr = `${checkDate.getFullYear()}-${String(checkDate.getMonth() + 1).padStart(2, '0')}-${String(checkDate.getDate()).padStart(2, '0')}`;
+
+            if (learnDates.has(dateStr)) {
+                continuousDays++;
+            } else {
+                break;
+            }
+        }
+
+        // 更新用户记录
+        await user.update({
+            total_learn_days: totalLearnDays,
+            continuous_days: continuousDays
+        });
     }
 }
 

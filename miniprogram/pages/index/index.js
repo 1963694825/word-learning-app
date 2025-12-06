@@ -27,8 +27,13 @@ Page({
     },
 
     onShow() {
+        // 每次显示页面时重新加载数据,确保统计数据是最新的
         if (isLoggedIn()) {
+            console.log('页面显示,重新加载数据');
             this.loadData();
+        } else {
+            // 未登录时也要设置loading为false
+            this.setData({ loading: false });
         }
     },
 
@@ -55,9 +60,14 @@ Page({
                 console.log('词书列表:', books);
                 this.setData({ books });
 
+                // 如果没有选中词书,选择第一个
                 if (!this.data.selectedBook && books.length > 0) {
                     this.setData({ selectedBook: books[0] });
-                    await this.loadBookStats(books[0].id);
+                }
+
+                // 如果有选中的词书,重新加载其统计数据
+                if (this.data.selectedBook) {
+                    await this.loadBookStats(this.data.selectedBook.id);
                 }
             }
 

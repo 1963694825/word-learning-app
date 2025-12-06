@@ -52,16 +52,20 @@ class StatsService {
             throw new Error('词书不存在');
         }
 
+        // 获取词书的所有单词ID
+        const bookWordIds = await BookWord.findAll({
+            where: { book_id: bookId },
+            attributes: ['word_id']
+        }).then(records => records.map(r => r.word_id));
+
         // 获取词书的总单词数
-        const totalWords = await BookWord.count({
-            where: { book_id: bookId }
-        });
+        const totalWords = bookWordIds.length;
 
         // 获取用户在该词书中已学习的单词数
         const learnedWords = await LearnRecord.count({
             where: {
                 user_id: userId,
-                book_id: bookId
+                word_id: { [Op.in]: bookWordIds.length > 0 ? bookWordIds : [0] }
             }
         });
 
@@ -69,7 +73,7 @@ class StatsService {
         const masteredWords = await LearnRecord.count({
             where: {
                 user_id: userId,
-                book_id: bookId,
+                word_id: { [Op.in]: bookWordIds.length > 0 ? bookWordIds : [0] },
                 familiarity_level: { [Op.gte]: 4 }
             }
         });
@@ -78,7 +82,7 @@ class StatsService {
         const learningWords = await LearnRecord.count({
             where: {
                 user_id: userId,
-                book_id: bookId,
+                word_id: { [Op.in]: bookWordIds.length > 0 ? bookWordIds : [0] },
                 familiarity_level: { [Op.between]: [1, 3] }
             }
         });
@@ -106,6 +110,54 @@ class StatsService {
                 progress: progress                 // 学习进度(%)
             }
         };
+    }
+
+    /**
+     * 获取学习日历数据
+     * @param {number} userId - 用户ID
+     * @param {number} days - 获取最近多少天的数据,默认30天
+     */
+    async getCalendar(userId, days = 30) {
+        const endDate = new Date();
+        const startDate = new Date();
+        startDate.setDate(startDate.getDate() - days + 1);
+        startDate.setHours(0, 0, 0, 0);
+
+        // 获取这段时间内每天的学习记录
+        const records = await LearnRecord.findAll({
+            where: {
+                user_id: userId,
+                last_review_time: {
+                    [Op.between]: [startDate, endDate]
+                }
+            },
+            attributes: ['last_review_time'],
+            raw: true
+        });
+
+        // 统计每天的学习记录数
+        const dailyRecords = {};
+        records.forEach(record => {
+            const date = new Date(record.last_review_time);
+            const dateStr = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+            dailyRecords[dateStr] = (dailyRecords[dateStr] || 0) + 1;
+        });
+
+        // 生成日历数据
+        const calendar = [];
+        for (let i = 0; i < days; i++) {
+            const date = new Date(startDate);
+            date.setDate(date.getDate() + i);
+            const dateStr = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+
+            calendar.push({
+                date: dateStr,
+                count: dailyRecords[dateStr] || 0,
+                hasLearned: (dailyRecords[dateStr] || 0) > 0
+            });
+        }
+
+        return calendar;
     }
 }
 

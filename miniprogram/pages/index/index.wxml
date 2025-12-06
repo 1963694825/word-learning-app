@@ -30,24 +30,6 @@
       </scroll-view>
     </view>
 
-    <!-- 统计卡片 -->
-    <view class="stats-card card">
-      <view class="stats-title">学习统计</view>
-      <view class="stats-grid">
-        <view class="stat-item">
-          <text class="stat-value">{{stats.todayWords}}</text>
-          <text class="stat-label">今日学习</text>
-        </view>
-        <view class="stat-item">
-          <text class="stat-value">{{stats.totalWords}}</text>
-          <text class="stat-label">累计单词</text>
-        </view>
-        <view class="stat-item">
-          <text class="stat-value">{{stats.continuousDays}}</text>
-          <text class="stat-label">连续天数</text>
-        </view>
-      </view>
-    </view>
 
     <!-- 词书学习统计 -->
     <view wx:if="{{selectedBook && bookStats}}" class="book-stats-card card">

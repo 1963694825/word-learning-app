@@ -22,6 +22,17 @@ class StatsController {
             ctx.body = error(err.message, 500);
         }
     }
+
+    async getCalendar(ctx) {
+        try {
+            const userId = ctx.state.user.id;
+            const days = parseInt(ctx.query.days) || 30;
+            const calendar = await statsService.getCalendar(userId, days);
+            ctx.body = success({ calendar });
+        } catch (err) {
+            ctx.body = error(err.message, 500);
+        }
+    }
 }
 
 module.exports = new StatsController();
