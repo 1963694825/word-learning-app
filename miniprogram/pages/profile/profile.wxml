@@ -1,39 +1,49 @@
 <!--pages/profile/profile.wxml-->
 <view class="container">
-  <!-- 用户信息 -->
-  <view class="user-card">
-    <image class="avatar" src="{{userInfo.avatar_url}}" mode="aspectFill"></image>
-    <text class="nickname">{{userInfo.nickname || '微信用户'}}</text>
+  <!-- 未登录状态 -->
+  <view wx:if="{{!userInfo}}" class="login-prompt" bindtap="goToLogin">
+    <view class="login-icon">👤</view>
+    <text class="login-text">未登录</text>
+    <text class="login-tip">点击登录</text>
   </view>
 
-  <!-- 学习数据 -->
-  <view class="data-card">
-    <view class="data-item">
-      <text class="data-value">{{userInfo.total_learn_days || 0}}</text>
-      <text class="data-label">学习天数</text>
+  <!-- 已登录状态 -->
+  <view wx:else>
+    <!-- 用户信息 -->
+    <view class="user-card">
+      <image class="avatar" src="{{userInfo.avatar_url}}" mode="aspectFill"></image>
+      <text class="nickname">{{userInfo.nickname || '微信用户'}}</text>
     </view>
-    <view class="data-item">
-      <text class="data-value">{{userInfo.continuous_days || 0}}</text>
-      <text class="data-label">连续打卡</text>
-    </view>
-    <view class="data-item">
-      <text class="data-value">{{userInfo.total_words || 0}}</text>
-      <text class="data-label">学习单词</text>
-    </view>
-  </view>
 
-  <!-- 功能列表 -->
-  <view class="menu-list">
-    <view class="menu-item">
-      <text class="menu-text">设置</text>
-      <text class="arrow">›</text>
+    <!-- 学习数据 -->
+    <view class="data-card">
+      <view class="data-item">
+        <text class="data-value">{{userInfo.total_learn_days || 0}}</text>
+        <text class="data-label">学习天数</text>
+      </view>
+      <view class="data-item">
+        <text class="data-value">{{userInfo.continuous_days || 0}}</text>
+        <text class="data-label">连续打卡</text>
+      </view>
+      <view class="data-item">
+        <text class="data-value">{{userInfo.total_words || 0}}</text>
+        <text class="data-label">学习单词</text>
+      </view>
     </view>
-    <view class="menu-item">
-      <text class="menu-text">关于</text>
-      <text class="arrow">›</text>
-    </view>
-  </view>
 
-  <!-- 退出登录 -->
-  <button class="btn-logout" bindtap="handleLogout">退出登录</button>
+    <!-- 功能列表 -->
+    <view class="menu-list">
+      <view class="menu-item">
+        <text class="menu-text">设置</text>
+        <text class="arrow">›</text>
+      </view>
+      <view class="menu-item">
+        <text class="menu-text">关于</text>
+        <text class="arrow">›</text>
+      </view>
+    </view>
+
+    <!-- 退出登录 -->
+    <button class="btn-logout" bindtap="handleLogout">退出登录</button>
+  </view>
 </view>

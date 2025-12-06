@@ -38,13 +38,8 @@ Page({
 
     async checkLogin() {
         if (!isLoggedIn()) {
-            const result = await login('testuser', '123456');
-            if (result.success) {
-                this.setData({ userInfo: result.data.user });
-                this.loadData();
-            } else {
-                wx.showToast({ title: '登录失败', icon: 'none' });
-            }
+            // 未登录,只设置loading为false,不自动登录
+            this.setData({ loading: false });
         } else {
             this.loadData();
         }
@@ -172,6 +167,68 @@ Page({
         } catch (error) {
             console.error('加载任务失败:', error);
         }
+    },
+
+    // 开始学习
+    startLearning() {
+        if (!isLoggedIn()) {
+            wx.showModal({
+                title: '提示',
+                content: '请先登录才能开始学习',
+                confirmText: '去登录',
+                success: (res) => {
+                    if (res.confirm) {
+                        wx.navigateTo({
+                            url: '/pages/login/login'
+                        });
+                    }
+                }
+            });
+            return;
+        }
+
+        if (!this.data.selectedBook) {
+            wx.showToast({
+                title: '请先选择词书',
+                icon: 'none'
+            });
+            return;
+        }
+
+        wx.navigateTo({
+            url: `/pages/learn/learn?bookId=${this.data.selectedBook.id}`
+        });
+    },
+
+    // 开始测试
+    startTest() {
+        if (!isLoggedIn()) {
+            wx.showModal({
+                title: '提示',
+                content: '请先登录才能开始测试',
+                confirmText: '去登录',
+                success: (res) => {
+                    if (res.confirm) {
+                        wx.navigateTo({
+                            url: '/pages/login/login'
+                        });
+                    }
+                }
+            });
+            return;
+        }
+
+        if (!this.data.selectedBook) {
+            wx.showToast({
+                title: '请先选择词书',
+                icon: 'none'
+            });
+            return;
+        }
+
+        wx.navigateTo({
+            url: `/pages/test/test?bookId=${this.data.selectedBook.id}`
+        });
     },
 
     goToWordbook() {
