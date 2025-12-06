@@ -14,22 +14,12 @@
   margin-bottom: 30rpx;
 }
 
-.avatar-placeholder {
+.avatar {
   width: 120rpx;
   height: 120rpx;
   border-radius: 60rpx;
-  background: rgba(255, 255, 255, 0.3);
   border: 4rpx solid white;
   margin-bottom: 20rpx;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.avatar-text {
-  font-size: 48rpx;
-  font-weight: 600;
-  color: white;
 }
 
 .nickname {

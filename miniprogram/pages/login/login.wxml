@@ -16,24 +16,56 @@
       <text class="subtitle">让英语学习更简单</text>
     </view>
 
-    <!-- 功能介绍 -->
-    <view class="features">
-      <view class="feature-item">
-        <text class="feature-icon">✨</text>
-        <text class="feature-text">智能记忆曲线</text>
+    <!-- 用户信息填写 -->
+    <view class="user-info-section" wx:if="{{showUserInfo}}">
+      <view class="info-title">完善个人信息</view>
+      
+      <!-- 头像选择 -->
+      <view class="avatar-section">
+        <button class="avatar-button" open-type="chooseAvatar" bindchooseavatar="onChooseAvatar">
+          <image class="avatar-preview" src="{{avatarUrl || '/images/default-avatar.png'}}" mode="aspectFill"></image>
+          <text class="avatar-tip">点击选择头像</text>
+        </button>
       </view>
-      <view class="feature-item">
-        <text class="feature-icon">📖</text>
-        <text class="feature-text">海量词库资源</text>
+
+      <!-- 昵称输入 -->
+      <view class="nickname-section">
+        <input 
+          class="nickname-input" 
+          type="nickname" 
+          placeholder="请输入昵称"
+          value="{{nickname}}"
+          bindchange="onNicknameChange"
+        />
       </view>
-      <view class="feature-item">
-        <text class="feature-icon">📊</text>
-        <text class="feature-text">学习数据统计</text>
-      </view>
+
+      <!-- 确认按钮 -->
+      <button 
+        class="confirm-btn" 
+        bindtap="handleConfirmInfo"
+        disabled="{{!avatarUrl || !nickname}}"
+      >
+        确认并登录
+      </button>
     </view>
 
     <!-- 登录按钮 -->
-    <view class="login-section">
+    <view class="login-section" wx:else>
+      <view class="features">
+        <view class="feature-item">
+          <text class="feature-icon">✨</text>
+          <text class="feature-text">智能记忆曲线</text>
+        </view>
+        <view class="feature-item">
+          <text class="feature-icon">📖</text>
+          <text class="feature-text">海量词库资源</text>
+        </view>
+        <view class="feature-item">
+          <text class="feature-icon">📊</text>
+          <text class="feature-text">学习数据统计</text>
+        </view>
+      </view>
+
       <button 
         class="login-btn" 
         bindtap="handleWxLogin"

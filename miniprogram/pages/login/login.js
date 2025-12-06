@@ -3,24 +3,21 @@ const { post } = require('../../utils/request');
 
 Page({
     data: {
-        loading: false
+        loading: false,
+        showUserInfo: false,
+        code: '',
+        avatarUrl: '',
+        nickname: ''
     },
 
     /**
-     * 微信授权登录
+     * 微信授权登录 - 第一步:获取code
      */
     async handleWxLogin() {
         try {
             this.setData({ loading: true });
 
-            // 1. 先获取用户信息(必须在点击事件中直接调用)
-            const userInfoRes = await wx.getUserProfile({
-                desc: '用于完善用户资料'
-            });
-
-            console.log('获取到用户信息:', userInfoRes.userInfo);
-
-            // 2. 再获取微信登录凭证code
+            // 获取微信登录凭证code
             const loginRes = await wx.login();
             if (!loginRes.code) {
                 throw new Error('获取登录凭证失败');
@@ -28,10 +25,62 @@ Page({
 
             console.log('获取到code:', loginRes.code);
 
-            // 3. 发送到后端登录
-            const res = await post('/auth/wx-login', {
+            // 保存code,显示用户信息填写界面
+            this.setData({
                 code: loginRes.code,
-                userInfo: userInfoRes.userInfo
+                showUserInfo: true,
+                loading: false
+            });
+
+        } catch (error) {
+            console.error('获取code失败:', error);
+            wx.showToast({
+                title: '登录失败',
+                icon: 'none',
+                duration: 2000
+            });
+            this.setData({ loading: false });
+        }
+    },
+
+    /**
+     * 选择头像
+     */
+    onChooseAvatar(e) {
+        const { avatarUrl } = e.detail;
+        console.log('选择的头像:', avatarUrl);
+        this.setData({
+            avatarUrl: avatarUrl
+        });
+    },
+
+    /**
+     * 输入昵称
+     */
+    onNicknameChange(e) {
+        const nickname = e.detail.value;
+        console.log('输入的昵称:', nickname);
+        this.setData({
+            nickname: nickname
+        });
+    },
+
+    /**
+     * 确认信息并登录 - 第二步:提交到后端
+     */
+    async handleConfirmInfo() {
+        try {
+            this.setData({ loading: true });
+
+            const { code, avatarUrl, nickname } = this.data;
+
+            // 发送到后端登录
+            const res = await post('/auth/wx-login', {
+                code: code,
+                userInfo: {
+                    avatarUrl: avatarUrl,
+                    nickName: nickname
+                }
             }, false);
 
             if (res.code === 200) {
@@ -61,15 +110,8 @@ Page({
         } catch (error) {
             console.error('登录失败:', error);
 
-            let errorMsg = '登录失败';
-            if (error.errMsg && error.errMsg.includes('getUserProfile:fail auth deny')) {
-                errorMsg = '您取消了授权';
-            } else if (error.message) {
-                errorMsg = error.message;
-            }
-
             wx.showToast({
-                title: errorMsg,
+                title: error.message || '登录失败',
                 icon: 'none',
                 duration: 2000
             });

@@ -89,6 +89,85 @@
   color: rgba(255, 255, 255, 0.8);
 }
 
+/* 用户信息填写区域 */
+.user-info-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-title {
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 60rpx;
+}
+
+.avatar-section {
+  margin-bottom: 40rpx;
+}
+
+.avatar-button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar-button::after {
+  border: none;
+}
+
+.avatar-preview {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 80rpx;
+  border: 4rpx solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.2);
+  margin-bottom: 16rpx;
+}
+
+.avatar-tip {
+  font-size: 24rpx;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.nickname-section {
+  width: 100%;
+  margin-bottom: 60rpx;
+}
+
+.nickname-input {
+  width: 100%;
+  height: 88rpx;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 44rpx;
+  padding: 0 40rpx;
+  font-size: 30rpx;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.confirm-btn {
+  width: 100%;
+  height: 100rpx;
+  background: #ffffff;
+  border-radius: 50rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #667eea;
+  border: none;
+  box-shadow: 0 8rpx 24rpx rgba(0, 0, 0, 0.15);
+}
+
+.confirm-btn[disabled] {
+  opacity: 0.5;
+}
+
 /* 功能介绍 */
 .features {
   display: flex;

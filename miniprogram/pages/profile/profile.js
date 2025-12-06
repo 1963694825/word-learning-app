@@ -9,8 +9,13 @@ Page({
   },
 
   onShow() {
+    const userInfo = app.globalData.userInfo;
+    console.log('Profile页面 - globalData.userInfo:', userInfo);
+    console.log('Profile页面 - 头像URL:', userInfo?.avatar_url);
+    console.log('Profile页面 - 昵称:', userInfo?.nickname);
+
     this.setData({
-      userInfo: app.globalData.userInfo
+      userInfo: userInfo
     });
   },
 

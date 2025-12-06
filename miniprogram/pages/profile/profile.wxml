@@ -2,10 +2,8 @@
 <view class="container">
   <!-- 用户信息 -->
   <view class="user-card">
-    <view class="avatar-placeholder">
-      <text class="avatar-text">{{userInfo.nickname ? userInfo.nickname.substring(0,1) : '用'}}</text>
-    </view>
-    <text class="nickname">{{userInfo.nickname || '用户'}}</text>
+    <image class="avatar" src="{{userInfo.avatar_url}}" mode="aspectFill"></image>
+    <text class="nickname">{{userInfo.nickname || '微信用户'}}</text>
   </view>
 
   <!-- 学习数据 -->
