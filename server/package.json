@@ -9,26 +9,31 @@
     "test": "jest",
     "init-db": "node scripts/init-db.js"
   },
-  "keywords": ["word", "learning", "api"],
+  "keywords": [
+    "word",
+    "learning",
+    "api"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "koa": "^2.14.2",
-    "koa-router": "^12.0.0",
-    "koa-bodyparser": "^4.4.0",
-    "koa-cors": "^0.0.16",
-    "sequelize": "^6.35.0",
-    "mysql2": "^3.6.5",
+    "axios": "^1.13.2",
+    "bcryptjs": "^2.4.3",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.3.1",
     "ioredis": "^5.3.2",
     "jsonwebtoken": "^9.0.2",
-    "bcryptjs": "^2.4.3",
-    "dotenv": "^16.3.1",
-    "dayjs": "^1.11.10"
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.0",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^12.0.0",
+    "mysql2": "^3.6.5",
+    "sequelize": "^6.35.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.2",
-    "jest": "^29.7.0",
     "eslint": "^8.55.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
     "prettier": "^3.1.1"
   }
 }

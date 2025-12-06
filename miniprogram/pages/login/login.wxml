@@ -1,0 +1,55 @@
+<!--pages/login/login.wxml-->
+<view class="login-container">
+  <!-- 背景装饰 -->
+  <view class="bg-decoration">
+    <view class="circle circle-1"></view>
+    <view class="circle circle-2"></view>
+    <view class="circle circle-3"></view>
+  </view>
+
+  <!-- 登录内容 -->
+  <view class="login-content">
+    <!-- Logo和标题 -->
+    <view class="header">
+      <view class="logo">📚</view>
+      <text class="title">单词学习助手</text>
+      <text class="subtitle">让英语学习更简单</text>
+    </view>
+
+    <!-- 功能介绍 -->
+    <view class="features">
+      <view class="feature-item">
+        <text class="feature-icon">✨</text>
+        <text class="feature-text">智能记忆曲线</text>
+      </view>
+      <view class="feature-item">
+        <text class="feature-icon">📖</text>
+        <text class="feature-text">海量词库资源</text>
+      </view>
+      <view class="feature-item">
+        <text class="feature-icon">📊</text>
+        <text class="feature-text">学习数据统计</text>
+      </view>
+    </view>
+
+    <!-- 登录按钮 -->
+    <view class="login-section">
+      <button 
+        class="login-btn" 
+        bindtap="handleWxLogin"
+        loading="{{loading}}"
+        disabled="{{loading}}"
+      >
+        <text wx:if="{{!loading}}">微信一键登录</text>
+        <text wx:else>登录中...</text>
+      </button>
+      
+      <view class="tips">
+        <text class="tips-text">登录即表示同意</text>
+        <text class="tips-link">《用户协议》</text>
+        <text class="tips-text">和</text>
+        <text class="tips-link">《隐私政策》</text>
+      </view>
+    </view>
+  </view>
+</view>
